@@ -1,0 +1,54 @@
+#banner {
+	text-align: center; 
+	width: 250px; 
+	height: 250px;
+	right: 0px; 
+	top: 0;  
+	position: fixed; 
+	border: 10px solid rgba(0,0,0,0.2);
+	border-top: none;
+	border-right: none;
+	z-index: 1000000;
+}
+
+body #banner a {
+	text-decoration: none;
+}
+
+#banner img {
+	width: 100%;
+	height: auto;
+}
+
+#cda-remove{
+	opacity: 0.25;
+	width: 32px;
+	height: 32px;
+	line-height: 30px;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	background: #000;
+	text-align: center;
+	cursor: pointer;
+}
+#cda-remove:hover {
+	opacity: 0.6;
+}
+#cda-remove:before {
+	content: 'x';
+	color: #fff;
+	font-weight: 400;
+	font-family: Arial, sans-serif;
+}
+
+@media screen and (max-width: 800px){ 
+	#banner{
+		width: 200px; 
+		height: 200px;
+	}
+}
+
+@media screen and (max-width: 400px){ 
+	#banner{display: none !important;}
+}
