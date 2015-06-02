@@ -754,8 +754,8 @@ nav#menu #menu-nav li a:hover {
 	height: 100%;
 	background: #fd7293;
 	
-	opacity: 0.80;
-	filter: alpha(opacity=80);
+	opacity: 0.70;
+	filter: alpha(opacity=70);
 }
 
 .item-thumbs .hover-wrap .overlay-img-thumb {
@@ -778,6 +778,7 @@ nav#menu #menu-nav li a:hover {
 	position: relative;
 	margin-bottom: 13px;
 	text-align: left;
+	z-index: -1;
 }
 
 .serv_icon_block {
