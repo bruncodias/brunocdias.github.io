@@ -771,6 +771,76 @@ nav#menu #menu-nav li a:hover {
 	filter: alpha(opacity=100);
 }
 
+/* Portfolio item (list of courses) */
+
+.serv_block {
+	display: block;
+	position: relative;
+	margin-bottom: 13px;
+	text-align: left;
+	color: #797979;
+}
+
+.serv_icon_block {
+	float: left;
+	border-radius: 50%;
+	width: 68px;
+	height: 68px;
+	background: #34a85d;
+	transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+}
+
+.iconimg, .iconimg_h {
+	width: 36px;
+	height: 36px;
+	margin: 15px 16px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.serv_block a {
+	display: block;
+	margin: 0 0 15px;
+	padding: 19px 10px 35px 87px;
+	text-transform: uppercase;
+	border-bottom: 1px solid #38aa55;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 17px;
+	color: #3e3e3e;
+}
+
+h4.funcionamento {
+	line-height: 20px;
+	font-size: 30px;
+	margin-top: 5px;
+}
+
+h4 {
+	margin: 0;
+	padding: 0 0 15px 0;
+	text-transform: uppercase;
+	font-family: 'Titillium Web', 'Tahoma', sans-serif;
+	font-weight: 400;
+	font-size: 32px;
+	font-style: normal;
+	line-height: 40px;
+	color: #343434;
+}
+
+.clear {
+	clear: both;
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
 
 /* ==================================================
    About Section
@@ -986,50 +1056,6 @@ nav#menu #menu-nav li a:hover {
 #response {
 	margin-top: 20px;
 	color: #FFFFFF;
-}
-
-
-/* ==================================================
-   Twitter Feed
-================================================== */
-
-#twitter-feed {
-	padding: 100px 0 90px;
-	text-align: center;	
-}
-
-#twitter-feed .follow {
-	position: absolute;
-	bottom: 30px;
-	left: 50%;
-	margin-left: -8px;
-	font-size: 16px;	
-}
-
-#ticker .tweet_list {
-	margin: 0;
-	padding: 0;
-	height: 64px;
-	list-style: none;
-	overflow-y: hidden;	
-}
-
-#ticker .tweet_list li {
-	font-size: 18px;
-	height: 64px;
-	line-height: 28px;
-	overflow: hidden;
-}
-
-#ticker .tweet_list .tweet_time a {
-	color: #7f8289;
-	font-size: 14px;
-	font-style: italic;
-	margin-left: 10px;	
-}
-
-#ticker .tweet_list .tweet_time a:hover {
-	color: #FFFFFF;	
 }
 
 
