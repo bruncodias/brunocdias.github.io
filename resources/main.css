@@ -638,6 +638,7 @@ nav#menu #menu-nav li a:hover {
 	padding: 100px 0;
 	position: relative;
 	z-index: 99;
+	color: #880033;
 }
 
 .page-alternate {
@@ -662,6 +663,8 @@ nav#menu #menu-nav li a:hover {
 	font-weight: 200;
 	margin: 0;
 }
+
+
 
 /* ==================================================
    Section Portfolio
