@@ -667,7 +667,7 @@ nav#menu #menu-nav li a:hover {
 
 
 /* ==================================================
-   Section Portfolio
+   Section Courses
 ================================================== */
 
 .type-work {
@@ -853,7 +853,7 @@ h4 {
 }
 
 /* ==================================================
-   About Section
+   Faculty Section
 ================================================== */
 
 .profile-name {
@@ -1415,4 +1415,13 @@ footer .credits {
       -ms-transition: none;
        -o-transition: none;
           transition: none;
+}
+
+/* ==================================================
+   Resources Section
+================================================== */
+
+.maps {
+	max-height: 400px;
+	height: 200px; 
 }
