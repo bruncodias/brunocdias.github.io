@@ -40,14 +40,15 @@
 <link href="http://themes.alessioatzeni.com/html/brushed/_include/css/responsive.css" rel="stylesheet">
 
 <!-- Supersized -->
-<link href="http://themes.alessioatzeni.com/html/brushed/_include/css/supersized.css" rel="stylesheet">
-<link href="http://themes.alessioatzeni.com/html/brushed/_include/css/supersized.shutter.css" rel="stylesheet">
+<link href="resources/supersized.css" rel="stylesheet">
+<link href="resources/supersized.shutter.css" rel="stylesheet">
 
 <!-- Google Font -->
 <link href="resources/css" rel="stylesheet" type="text/css">
 
 <!-- Fav Icon -->
-<link rel="shortcut icon" href="http://themes.alessioatzeni.com/html/brushed/#">
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+<link rel="icon" href="favicon.ico" type="image/x-icon">
 
 <link rel="apple-touch-icon" href="http://themes.alessioatzeni.com/html/brushed/#">
 <link rel="apple-touch-icon" sizes="114x114" href="http://themes.alessioatzeni.com/html/brushed/#">
@@ -56,6 +57,9 @@
 
 <!-- Modernizr -->
 <script type="text/javascript" async="" src="resources/ga.js"></script><script src="resources/placeholder.js"></script><script src="resources/modernizr.js"></script>
+
+<!-- Google Maps -->
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 
 <!-- Analytics -->
 <script type="text/javascript">
@@ -91,19 +95,6 @@
     </div>   
 	
 	<div class="control-nav">
-        <a id="prevslide" class="load-item" style="display: inline-block;">
-        	<i class="font-icon-arrow-simple-left"></i>
-    	</a>
-        <a id="nextslide" class="load-item" style="display: inline-block;">
-        	<i class="font-icon-arrow-simple-right"></i>
-    	</a>
-        <ul id="slide-list" style="margin-left: -42px;">
-        	<li class="slide-link-0"><a></a></li>
-        	<li class="slide-link-1 current-slide"><a></a></li>
-        	<li class="slide-link-2"><a></a></li>
-        	<li class="slide-link-3"><a></a></li>
-    	</ul>
-        
         <a id="nextsection" href="#courses"><i class="font-icon-arrow-simple-down"></i></a>
     </div>
 </div>
@@ -843,7 +834,6 @@
     			<br/>
     			<span class="font-icon-time"></span> 10:00am - 8:00pm (Mon-Sat)/ 11:00am - 7:30pm (Sun)
     		</p>
-    		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 		    <script>
 				var map;
 				function initialize() {
@@ -878,7 +868,6 @@
     			<br/>
     			<span class="font-icon-time"></span> 9:30am – 9:00pm
     		</p>
-    		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 		    <script>
 				var map;
 				function initialize() {
@@ -938,7 +927,6 @@
     			<br/>
     			<span class="font-icon-inbox-empty"></span> Box Office: (212) 715-1258
     		</p>
-    		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 		    <script>
 				var map;
 				function initialize() {
@@ -977,7 +965,6 @@
     			<br/>
     			<span class="font-icon-social-email"></span> info@asiasociety.org
     		</p>
-    		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
 		    <script>
 				var map;
 				function initialize() {
@@ -1160,15 +1147,9 @@
             <div class="span12">
                 <nav id="social">
                     <ul>
-                        <li><a href="https://twitter.com/Bluxart" title="Follow Me on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
-                        <li><a href="http://dribbble.com/Bluxart" title="Follow Me on Dribbble" target="_blank"><span class="font-icon-social-dribbble"></span></a></li>
-                        <li><a href="http://forrst.com/people/Bluxart" title="Follow Me on Forrst" target="_blank"><span class="font-icon-social-forrst"></span></a></li>
-                        <li><a href="http://www.behance.net/alessioatzeni" title="Follow Me on Behance" target="_blank"><span class="font-icon-social-behance"></span></a></li>
-                        <li><a href="https://www.facebook.com/atzenialessio" title="Follow Me on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
-                        <li><a href="https://plus.google.com/105500420878314068694" title="Follow Me on Google Plus" target="_blank"><span class="font-icon-social-google-plus"></span></a></li>
-                        <li><a href="http://www.linkedin.com/in/alessioatzeni" title="Follow Me on LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
-                        <li><a href="http://themeforest.net/user/Bluxart" title="Follow Me on ThemeForest" target="_blank"><span class="font-icon-social-envato"></span></a></li>
-                        <li><a href="http://zerply.com/Bluxart/public" title="Follow Me on Zerply" target="_blank"><span class="font-icon-social-zerply"></span></a></li>
+                        <li><a href="https://twitter.com/Bluxart" title="Follow Us on Twitter" target="_blank"><span class="font-icon-social-twitter"></span></a></li>
+                        <li><a href="https://www.facebook.com/atzenialessio" title="Follow Us on Facebook" target="_blank"><span class="font-icon-social-facebook"></span></a></li>
+                        <li><a href="https://picasaweb.google.com/JapaneseClasses" title="Check Out Our Photos" target="_blank"><span class="font-icon-camera"></span></a></li>
                     </ul>
                 </nav>
             </div>
@@ -1203,31 +1184,6 @@
 <script src="resources/plugins.js"></script> <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
 <script src="resources/main.js"></script> <!-- Default JS -->
 <!-- End Js -->
-
-<!-- Supersized container -->
-<ul id="supersized" class="quality" style="visibility: visible;">
-	<li class="slide-0 prevslide" style="visibility: visible; opacity: 1;">
-		<a target="_blank">
-			<img src="_include/img/slider-images/image01.jpg" style="width: 1903px; left: 0px; top: -178px; height: 1275.01px;">
-		</a>
-	</li>
-	<li class="slide-1 activeslide" style="visibility: visible; opacity: 1;">
-		<a target="_blank">
-			<img src="_include/img/slider-images/image02.jpg" style="width: 1903px; height: 1351.13px; left: 0px; top: -216px;">
-		</a>
-	</li>
-	<li class="slide-2" style="visibility: visible; opacity: 1;">
-		<a target="_blank">
-			<img src="_include/img/slider-images/image03.jpg" style="width: 1903px; height: 1275.01px; left: 0px; top: -178px;">
-		</a>
-	</li>
-	<li class="slide-3" style="visibility: visible; opacity: 1;">
-		<a target="_blank">
-			<img src="_include/img/slider-images/image04.jpg" style="width: 1903px; left: 0px; top: -263.5px; height: 1446.28px;">
-		</a>
-	</li>
-</ul>
-<!-- End of Supersized container -->
 
 </body>
 </html>
