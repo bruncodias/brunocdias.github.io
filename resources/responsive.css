@@ -44,6 +44,10 @@
 	.info-text {
 		padding-right: 0;	
 	}
+
+	.kokeshi {
+		clear: both;
+	}
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -199,6 +203,10 @@
 	
 	.info-text {
 		padding-right: 0;	
+	}
+
+	.kokeshi {
+		clear: both;
 	}
 }
 
@@ -369,6 +377,10 @@
 	.info-text {
 		padding-right: 0;	
 	}
+
+	.kokeshi {
+		clear: both;
+	}
 }
 
 @media (max-width: 320px) {
@@ -379,11 +391,16 @@
 	.work-nav #filters li a {
 		font-size: 12px;
 	}
-	
+
 	#twitter-feed {
 		padding-top: 90px;
 		padding-bottom: 120px;	
 	}
+
+	.kokeshi {
+		clear: both;
+	}
+
 }
 
 
@@ -396,17 +413,20 @@
   	only screen and (min-resolution: 2dppx) {
 		
 		header #logo a {
-			background-image: url(../img/logo_@2x.png) no-repeat;
+			background-image: url(../img/logo_@2x.png);
+			background-repeat: no-repeat;
 			background-size: 96px 30px;
 		}
 		
 		.menu-nav {
-			background-image: url(../img/menu-mobile_@2x.png) no-repeat;
+			background-image: url(../img/menu-mobile_@2x.png);
+			background-repeat: no-repeat;
 			background-size: 16px 32px;
 		}
 		
 		.type-work {
-			background-image: url(../img/filter-icon_@2x.png) no-repeat;
+			/*background-image: url(../img/filter-icon_@2x.png);*/
+			background-repeat: no-repeat;
 			background-size: 16px 16px;
 		}
 	}
