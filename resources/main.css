@@ -508,10 +508,10 @@ header #logo {
 }
 
 header #logo a {
-	background: url(../img/logo.png) no-repeat;
-	width: 200px;
-	height: 100px;
-	text-indent: -9999px;
+	/*background: url(../img/logo.png) no-repeat;*/
+	/*width: 200px;*/
+	/*height: 100px;*/
+	/*text-indent: -9999px;*/
 	display: block;
 	opacity: 1;
 	filter: alpha(opacity=100);

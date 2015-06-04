@@ -310,7 +310,7 @@
 	
 	.work-nav #filters li a {
 		font-size: 13px;
-		text-transform: uppercase;	
+		text-transform: uppercase;
 	}
 	
 	#about .profile {
@@ -414,19 +414,19 @@
 		
 		header #logo a {
 			background-image: url(../img/logo_@2x.png);
-			background-repeat: no-repeat;
+			/*background-repeat: no-repeat;*/
 			background-size: 96px 30px;
 		}
 		
 		.menu-nav {
 			background-image: url(../img/menu-mobile_@2x.png);
-			background-repeat: no-repeat;
+			/*background-repeat: no-repeat;*/
 			background-size: 16px 32px;
 		}
 		
 		.type-work {
 			/*background-image: url(../img/filter-icon_@2x.png);*/
-			background-repeat: no-repeat;
+			/*background-repeat: no-repeat;*/
 			background-size: 16px 16px;
 		}
 	}
