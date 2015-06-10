@@ -11,6 +11,12 @@
 		display: none;
 	}
 
+	header .sticky-nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+
 	#mobile-nav {
     	display: block;
 		float: right;
@@ -486,7 +492,6 @@
 /*================================
 	End of Slider
 ================================*/
-
 }
 
 /*================================

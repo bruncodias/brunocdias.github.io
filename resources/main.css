@@ -317,9 +317,9 @@ h3.spec {
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	margin: -300px 0 0 -900px;
-	width: 850px;
-	height: 700px;
+	margin: -150px 0 0 -585px;
+	width: 1170px;
+	height: 250px;
 	text-align: center;
 	z-index: 2;	
 }
@@ -340,9 +340,9 @@ h3.spec {
 }
 
 #home-slider .slide-text {
-	font-size: 30px;
+	font-size: 25px;
 	color: #7f0024;
-	letter-spacing: -3px;
+	letter-spacing: -1px;
 	text-align: left;	
 }
 
