@@ -1,3 +1,11 @@
+@media (min-width: 980px) {
+	header .sticky-nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+}
+
 @media (min-width: 768px) and (max-width: 979px) {
 	#menu {
 		display: none;
@@ -231,7 +239,7 @@
 }
 
 /*================================
-	@media = 481-767px (tablet)
+	End of @media = 481-767px (tablet)
 ================================*/
 
 /*================================

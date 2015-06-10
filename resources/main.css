@@ -1435,3 +1435,9 @@ footer .credits {
 .h5-title {
 	text-align: center;
 }
+
+/* End of Resources Section========================= */
+
+nav#menu #menu-nav li#home-slider-option {
+	display: none;
+}
