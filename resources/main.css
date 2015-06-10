@@ -317,7 +317,7 @@ h3.spec {
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	margin: -150px 0 0 -585px;
+	margin: -230px 0px 0px -715px;
 	width: 1170px;
 	height: 250px;
 	text-align: center;
@@ -326,7 +326,7 @@ h3.spec {
 
 #home-slider #slidecaption {
 	width: 100%;
-	line-height: 100px;
+	line-height: 70px;
 	margin: 0;
 	text-align: left;
 	text-shadow: none;	
