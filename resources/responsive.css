@@ -1,12 +1,42 @@
-@media (min-width: 980px) {
+/*================================
+	@media > 980px (notebooks/desktops)
+================================*/
+@media (min-width: 981px) and (max-width: 1280px) {
+	#home-slider .slide-content {
+		font-size: 55px;
+	}
+
+	#home-slider #slidecaption {
+		line-height: 60px;
+	}
+
+	#home-slider .slide-text {
+		font-size: 17px;
+		color: #7f0024;
+		letter-spacing: 0px;
+		text-align: justify;
+		padding-right: 310px;	
+	}
+
+	#home-slider .slider-text {
+		margin: -230px 0px 0px -625px;
+	}
+}
+
+@media (min-width: 981px) {
+	/* Min width to not compress menu */
 	header .sticky-nav {
 		position: fixed;
 		top: 0;
 		left: 0;
 	}
 }
+/*================================
+	End of @media > 980px (notebooks/desktops)
+================================*/
 
-@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 768px) and (max-width: 980px) {
+
 	#menu {
 		display: none;
 	}
@@ -62,6 +92,18 @@
 	.kokeshi {
 		clear: both;
 	}
+
+/*================================
+	Slider
+================================*/
+
+	#home-slider .slider-text {
+		margin: -230px 0px 0px -455px;
+	}
+
+/*================================
+	End of Slider
+================================*/
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
