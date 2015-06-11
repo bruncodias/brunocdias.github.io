@@ -2,24 +2,13 @@
 	@media > 980px (notebooks/desktops)
 ================================*/
 @media (min-width: 981px) and (max-width: 1280px) {
-	#home-slider .slide-content {
-		font-size: 55px;
-	}
 
 	#home-slider #slidecaption {
-		line-height: 60px;
-	}
-
-	#home-slider .slide-text {
-		font-size: 17px;
-		color: #7f0024;
-		letter-spacing: 0px;
-		text-align: justify;
-		padding-right: 310px;	
+		line-height: 50px;
 	}
 
 	#home-slider .slider-text {
-		margin: -230px 0px 0px -625px;
+		/*margin: -230px 0px 0px -625px;*/
 	}
 }
 
@@ -99,7 +88,7 @@
 	Slider
 ================================*/
 	#home-slider .slider-text {
-		margin: -300px 0px 0px -375px;
+		/*margin: -300px 0px 0px -375px;*/
 	}
 /*================================
 	End of Slider
@@ -110,10 +99,6 @@
 ================================*/
 	#supersized img {
 		margin-right: 200px;
-	}
-
-	#home-slider .slide-text {
-		padding-right: 500px;
 	}
 /*================================
 	End of Supersized Image

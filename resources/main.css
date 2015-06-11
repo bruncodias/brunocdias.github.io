@@ -1,5 +1,5 @@
 /*
-Theme Name: Brushed 
+Theme Name: Brushed
 Theme URI: http://www.themes.alessioatzeni.com/html/brushed/
 Author: Alessio Atzeni
 Author URI: http://www.alessioatzeni.com
@@ -18,8 +18,8 @@ html, body {
 
 html, hmtl a{
 	width:100%;
-	font-size: 100%; 
-	-webkit-text-size-adjust: 100%; 
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 }
 
@@ -37,8 +37,8 @@ a{
 	color:#570517;
 	text-decoration: none;
 	cursor: pointer;
-	
-	-webkit-transition: color 0.1s linear 0s;	
+
+	-webkit-transition: color 0.1s linear 0s;
 	   -moz-transition: color 0.1s linear 0s;
 		 -o-transition: color 0.1s linear 0s;
 		    transition: color 0.1s linear 0s;
@@ -57,17 +57,17 @@ a img {
 }
 
 a > img {
-	vertical-align: bottom;	
+	vertical-align: bottom;
 }
 
 img {
-	max-width: none;	
+	max-width: none;
 }
 
 .kokeshi{
 	margin-left: 30px;
 	margin-bottom: 15px;
-		
+
 }
 
 strong {
@@ -84,7 +84,7 @@ hr {
 	border-bottom: none;
 	border-left: none;
 	border-right: none;
-	margin: 50px 0;	
+	margin: 50px 0;
 }
 
 .align_left{
@@ -106,7 +106,7 @@ hr {
 }
 
 .text_align_right {
-	text-align: right;	
+	text-align: right;
 }
 
 .color-text {
@@ -123,7 +123,7 @@ input, button, select, textarea {
 	outline: 0;
 }
 
-input:focus, 
+input:focus,
 textarea:focus,
 input[type="text"]:focus {
 	outline: 0;
@@ -303,7 +303,8 @@ h3.spec {
 	height: 100%;
 }
 
-#home-slider .overlay { 
+/* overlay class not used */
+#home-slider .overlay {
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -317,11 +318,11 @@ h3.spec {
 	position: absolute;
 	left: 50%;
 	top: 50%;
-	margin: -230px 0px 0px -715px;
-	width: 1170px;
-	height: 250px;
+	margin: -15% 0% 0% -47%;
+	width: 90%;
+	max-height: 90vh;
 	text-align: center;
-	z-index: 2;	
+	z-index: 2;
 }
 
 #home-slider #slidecaption {
@@ -329,26 +330,30 @@ h3.spec {
 	line-height: 70px;
 	margin: 0;
 	text-align: left;
-	text-shadow: none;	
+	text-shadow: none;
 }
 
+/* Japanese at Lehman, CUNY */
 #home-slider .slide-content {
-	font-size: 60px;
+	font-size: 3.75em; /* 60px/16px = 3.75em */
+	width: 78%;
 	color: #7f0024;
-	letter-spacing: -3px;
-	text-transform: uppercase;	
+	letter-spacing: -1px;
+	text-transform: uppercase;
 }
 
+/* Department message */
 #home-slider .slide-text {
-	font-size: 20px;
+	font-size: 1em;
 	color: #7f0024;
 	letter-spacing: 0px;
 	text-align: justify;
-	padding-right: 180px;	
+	width: 78%;
 }
 
+/* Welcome message in japanese */
 #home-slider .slide-text-jp {
-	font-size: 25px;	
+	font-size: 1.5625em; /* 25px/16px = 1.5625em */
 }
 
 #home-slider .control-nav {
@@ -373,15 +378,15 @@ h3.spec {
 	height: 50px;
 	opacity: 1;
 	filter: alpha(opacity=100);
-	
-	-webkit-transition: background 0.1s linear 0s;	
+
+	-webkit-transition: background 0.1s linear 0s;
 	   -moz-transition: background 0.1s linear 0s;
 		 -o-transition: background 0.1s linear 0s;
 		    transition: background 0.1s linear 0s;
 }
 
 #home-slider #nextslide {
-	margin-left: -3px;	
+	margin-left: -3px;
 }
 
 #home-slider #nextsection {
@@ -405,17 +410,17 @@ h3.spec {
 }
 
 #home-slider #nextslide i {
-	margin-left: -8px;	
+	margin-left: -8px;
 }
 
 #home-slider #prevslide i {
-	margin-left: -9px;	
+	margin-left: -9px;
 }
 
 #home-slider ul#slide-list {
 	top: 50%;
 	padding: 0;
-	margin:-6px 0 0 0;	
+	margin:-6px 0 0 0;
 }
 
 #home-slider ul#slide-list li {
@@ -423,7 +428,7 @@ h3.spec {
 }
 
 #home-slider ul#slide-list li:last-child {
-	margin-right: 0;	
+	margin-right: 0;
 }
 
 #home-slider ul#slide-list li a {
@@ -431,19 +436,19 @@ h3.spec {
 	background-image: none;
 	width: 12px;
 	height: 12px;
-	
+
 	-webkit-border-radius: 999px;
 	-moz-border-radius: 999px;
-	border-radius: 999px;	
-	
-	-webkit-transition: background 0.1s linear 0s;	
+	border-radius: 999px;
+
+	-webkit-transition: background 0.1s linear 0s;
 	   -moz-transition: background 0.1s linear 0s;
 		 -o-transition: background 0.1s linear 0s;
 		    transition: background 0.1s linear 0s;
 }
 
 #home-slider ul#slide-list li a:hover {
-	background-color: #FFFFFF;	
+	background-color: #FFFFFF;
 }
 
 #home-slider ul#slide-list li.current-slide a,
@@ -458,8 +463,8 @@ h3.spec {
 	float:right;
 	width: 50px;
 	height: 50px;
-	
-	-webkit-transition: background 0.1s linear 0s;	
+
+	-webkit-transition: background 0.1s linear 0s;
 	   -moz-transition: background 0.1s linear 0s;
 		 -o-transition: background 0.1s linear 0s;
 		    transition: background 0.1s linear 0s;
@@ -480,7 +485,7 @@ h3.spec {
 }
 
 #home-slider #nextsection i {
-	margin-left: -7px;	
+	margin-left: -7px;
 }
 
 
@@ -499,7 +504,7 @@ header .sticky-nav {
 	height: 60px;
 	background: #fc6e9e;
 	z-index: 1001;
-	
+
 	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
@@ -527,16 +532,16 @@ header #logo a {
 	display: block;
 	opacity: 1;
 	filter: alpha(opacity=100);
-	
-	-webkit-transition: opacity 0.25s ease-in-out 0s;	
+
+	-webkit-transition: opacity 0.25s ease-in-out 0s;
 	   -moz-transition: opacity 0.25s ease-in-out 0s;
 		 -o-transition: opacity 0.25s ease-in-out 0s;
-		    transition: opacity 0.25s ease-in-out 0s;	
+		    transition: opacity 0.25s ease-in-out 0s;
 }
 
 header #logo a:hover {
 	opacity: 0.65;
-	filter: alpha(opacity=65);	
+	filter: alpha(opacity=65);
 }
 
 nav#menu {
@@ -546,17 +551,17 @@ nav#menu {
 
 nav#menu #menu-nav {
 	margin: 0;
-	padding: 0;	
+	padding: 0;
 }
 
 nav#menu #menu-nav li {
 	list-style: none;
 	display: inline-block;
-	margin-left: 50px;	
+	margin-left: 50px;
 }
 
 nav#menu #menu-nav li:first-child {
-	margin-left: 0;	
+	margin-left: 0;
 }
 
 nav#menu #menu-nav li a {
@@ -579,7 +584,7 @@ nav#menu #menu-nav li a:hover {
 ================================================== */
 
 #mobile-nav {
-	display: none;	
+	display: none;
 }
 
 .menu-nav {
@@ -588,14 +593,14 @@ nav#menu #menu-nav li a:hover {
 	height: 16px;
 	display: block;
 	margin: 22px 0 0 0;
-	
+
 	-webkit-transform: rotate(0deg);
 	   -moz-transform: rotate(0deg);
 		-ms-transform: rotate(0deg);
 		 -o-transform: rotate(0deg);
 			transform: rotate(0deg);
-	
-	-webkit-transition: -webkit-transform 250ms ease-out 0s;	
+
+	-webkit-transition: -webkit-transform 250ms ease-out 0s;
 	   -moz-transition: -moz-transform 250ms ease-out 0s;
 		 -o-transition: -o-transform 250ms ease-out 0s;
 		    transition: transform 250ms ease-out 0s;
@@ -603,24 +608,24 @@ nav#menu #menu-nav li a:hover {
 
 .menu-nav.open {
 	background-position: 0 -16px;
-		  
+
 	-webkit-transform: rotate(-180deg);
 	   -moz-transform: rotate(-180deg);
 		-ms-transform: rotate(-180deg);
 		 -o-transform: rotate(-180deg);
 			transform: rotate(-180deg);
-	
-	-webkit-transition: -webkit-transform 250ms ease-out 0s;	
+
+	-webkit-transition: -webkit-transform 250ms ease-out 0s;
 	   -moz-transition: -moz-transform 250ms ease-out 0s;
 		 -o-transition: -o-transform 250ms ease-out 0s;
-		    transition: transform 250ms ease-out 0s;	
+		    transition: transform 250ms ease-out 0s;
 }
 
 #navigation-mobile {
 	display: none;
 	text-align: center;
 	width: 100%;
-	background: #fc6e9e;	
+	background: #fc6e9e;
 	border-bottom: 1px solid #ffcae1;
 	position: relative;
 	float: left;
@@ -661,7 +666,7 @@ nav#menu #menu-nav li a:hover {
 
 .title-page {
 	text-align: center;
-	margin-bottom: 100px;	
+	margin-bottom: 100px;
 }
 
 .title-page .title {
@@ -704,7 +709,7 @@ nav#menu #menu-nav li a:hover {
 .work-nav #filters li a {
 	color: #fc6e9e;
 	font-size: 16px;
-	display: block;	
+	display: block;
 }
 
 .work-nav #filters li a:hover {
@@ -717,7 +722,7 @@ nav#menu #menu-nav li a:hover {
 
 #thumbs {
 	margin: 0;
-	padding: 0;	
+	padding: 0;
 }
 
 #thumbs li {
@@ -732,7 +737,7 @@ nav#menu #menu-nav li a:hover {
 }
 
 .item-thumbs a + img {
-	width: 100%;	
+	width: 100%;
 }
 
 .item-thumbs .hover-wrap {
@@ -740,27 +745,27 @@ nav#menu #menu-nav li a:hover {
 	display: block;
 	width: 100%;
 	height: 100%;
-	
+
 	opacity: 0;
 	filter: alpha(opacity=0);
-	
-	-webkit-transition: all 450ms ease-out 0s;	
+
+	-webkit-transition: all 450ms ease-out 0s;
 	   -moz-transition: all 450ms ease-out 0s;
 		 -o-transition: all 450ms ease-out 0s;
 		    transition: all 450ms ease-out 0s;
-		  
+
 	-webkit-transform: rotateY(180deg) scale(0.5,0.5);
 	   -moz-transform: rotateY(180deg) scale(0.5,0.5);
 		-ms-transform: rotateY(180deg) scale(0.5,0.5);
 		 -o-transform: rotateY(180deg) scale(0.5,0.5);
-			transform: rotateY(180deg) scale(0.5,0.5);	
+			transform: rotateY(180deg) scale(0.5,0.5);
 }
 
 .item-thumbs:hover .hover-wrap,
 .item-thumbs.active .hover-wrap {
 	opacity: 1;
 	filter: alpha(opacity=100);
-	
+
 	-webkit-transform: rotateY(0deg) scale(1,1);
 	   -moz-transform: rotateY(0deg) scale(1,1);
 		-ms-transform: rotateY(0deg) scale(1,1);
@@ -773,7 +778,7 @@ nav#menu #menu-nav li a:hover {
 	width: 100%;
 	height: 100%;
 	background: #fd7293;
-	
+
 	opacity: 0.70;
 	filter: alpha(opacity=70);
 }
@@ -786,7 +791,7 @@ nav#menu #menu-nav li a:hover {
 	color: #FFFFFF;
 	font-size: 32px;
 	line-height: 1em;
-	
+
 	opacity: 1;
 	filter: alpha(opacity=100);
 }
@@ -868,11 +873,11 @@ h4 {
 ================================================== */
 
 .profile-name {
-	margin-bottom: 15px;	
+	margin-bottom: 15px;
 }
 
 .profile-description {
-	margin-bottom: 25px;	
+	margin-bottom: 25px;
 }
 
 .image-wrap {
@@ -883,7 +888,7 @@ h4 {
 }
 
 .image-wrap img {
-	width: 100%;	
+	width: 100%;
 }
 
 .image-wrap  .hover-wrap {
@@ -891,27 +896,27 @@ h4 {
 	display: block;
 	width: 100%;
 	height: 100%;
-	
+
 	opacity: 0;
 	filter: alpha(opacity=0);
-	
-	-webkit-transition: all 450ms ease-out 0s;	
+
+	-webkit-transition: all 450ms ease-out 0s;
 	   -moz-transition: all 450ms ease-out 0s;
 		 -o-transition: all 450ms ease-out 0s;
 		    transition: all 450ms ease-out 0s;
-		  
+
 	-webkit-transform: rotateY(180deg) scale(0.5,0.5);
 	   -moz-transform: rotateY(180deg) scale(0.5,0.5);
 		-ms-transform: rotateY(180deg) scale(0.5,0.5);
 		 -o-transform: rotateY(180deg) scale(0.5,0.5);
-			transform: rotateY(180deg) scale(0.5,0.5);	
+			transform: rotateY(180deg) scale(0.5,0.5);
 }
 
 .image-wrap:hover .hover-wrap,
 .image-wrap.active .hover-wrap {
 	opacity: 1;
 	filter: alpha(opacity=100);
-	
+
 	-webkit-transform: rotateY(0deg) scale(1,1);
 	   -moz-transform: rotateY(0deg) scale(1,1);
 		-ms-transform: rotateY(0deg) scale(1,1);
@@ -924,7 +929,7 @@ h4 {
 	width: 100%;
 	height: 100%;
 	background: #fd7293;
-	
+
 	opacity: 0.80;
 	filter: alpha(opacity=80);
 }
@@ -941,7 +946,7 @@ h4 {
 	line-height: 32px;
 	text-transform: uppercase;
 	text-align: center;
-	
+
 	opacity: 1;
 	filter: alpha(opacity=100);
 }
@@ -953,7 +958,7 @@ h4 {
 
 .social-icons li {
 	display: inline-block;
-	margin-left: 15px;	
+	margin-left: 15px;
 }
 
 .social-icons li:first-child {
@@ -966,11 +971,11 @@ h4 {
 	line-height: 1em;
 	width: 16px;
 	height: 16px;
-	
+
 	opacity: 0.3;
 	filter: alpha(opacity=30);
-	
-	-webkit-transition: opacity 0.1s linear 0s;	
+
+	-webkit-transition: opacity 0.1s linear 0s;
 	   -moz-transition: opacity 0.1s linear 0s;
 		 -o-transition: opacity 0.1s linear 0s;
 		    transition: opacity 0.1s linear 0s;
@@ -997,21 +1002,21 @@ h4 {
 .contact-details ul {
 	margin: 0;
 	padding: 0;
-	list-style: none;	
+	list-style: none;
 }
 
 .contact-details ul li {
 	margin: 0 0 20px;
 	line-height: 28px;
-	padding: 0;	
+	padding: 0;
 }
 
 #contact-form {
-	margin-bottom: 0;	
+	margin-bottom: 0;
 }
 
 #contact-form p {
-	margin-bottom: 1px;	
+	margin-bottom: 1px;
 }
 
 #contact-form input,
@@ -1020,18 +1025,18 @@ h4 {
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
     border-radius: 0;
-	
+
     -webkit-box-shadow: none;
 	-moz-box-shadow: none;
 	box-shadow: none;
-	
+
 	background: #fc6e9e;
     color: #FFFFFF;
     font-size: 16px;
     height: auto;
     padding: 15px;
 	margin: 0;
-	
+
     resize: none;
 }
 
@@ -1062,8 +1067,8 @@ h4 {
     vertical-align: middle;
     width: auto;
 	margin-top: 30px;
-	
-	-webkit-transition: background 0.1s linear 0s, color 0.1s linear 0s;	
+
+	-webkit-transition: background 0.1s linear 0s, color 0.1s linear 0s;
 	   -moz-transition: background 0.1s linear 0s, color 0.1s linear 0s;
 		 -o-transition: background 0.1s linear 0s, color 0.1s linear 0s;
 		    transition: background 0.1s linear 0s, color 0.1s linear 0s;
@@ -1110,12 +1115,12 @@ h4 {
 	height: 70px;
 
 	background: #fc6e9e;
-	
-	-webkit-transition: all 400ms ease-out 0s;	
+
+	-webkit-transition: all 400ms ease-out 0s;
 	   -moz-transition: all 400ms ease-out 0s;
 		 -o-transition: all 400ms ease-out 0s;
 		    transition: all 400ms ease-out 0s;
-	
+
 	-webkit-transform: rotateY(180deg);
 	   -moz-transform: rotateY(180deg);
 		-ms-transform: rotateY(180deg);
@@ -1129,15 +1134,15 @@ h4 {
 	color: #55606a;
 	font-size: 32px;
 	line-height: 70px;
-	
+
 	opacity: 0.3;
 	filter: alpha(opacity=30);
-	
-	-webkit-transition: all 400ms ease-out 0s;	
+
+	-webkit-transition: all 400ms ease-out 0s;
 	   -moz-transition: all 400ms ease-out 0s;
 		 -o-transition: all 400ms ease-out 0s;
 		    transition: all 400ms ease-out 0s;
-		  
+
 	-webkit-transform: rotateY(180deg);
 	   -moz-transform: rotateY(180deg);
 		-ms-transform: rotateY(180deg);
@@ -1147,8 +1152,8 @@ h4 {
 
 #social ul li:hover a,
 #social ul li.active a {
-	background-color: #570517;	
-	
+	background-color: #570517;
+
 	-webkit-transform: rotateY(0deg);
 	   -moz-transform: rotateY(0deg);
 		-ms-transform: rotateY(0deg);
@@ -1161,7 +1166,7 @@ h4 {
 	color: #FFFFFF;
 	opacity: 1;
 	filter: alpha(opacity=100);
-	
+
 	-webkit-transform: rotateY(0deg);
 	   -moz-transform: rotateY(0deg);
 		-ms-transform: rotateY(0deg);
@@ -1187,7 +1192,7 @@ footer .credits {
 	font-size: 13px;
 	margin-bottom: 0;
 	padding: 20px 0;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 }
 
 /* ==================================================
@@ -1204,8 +1209,8 @@ footer .credits {
 	width: 50px;
 	height: 50px;
 	z-index: 99;
-	
-	-webkit-transition: background 0.1s linear 0s;	
+
+	-webkit-transition: background 0.1s linear 0s;
 	   -moz-transition: background 0.1s linear 0s;
 		 -o-transition: background 0.1s linear 0s;
 		    transition: background 0.1s linear 0s;
@@ -1226,7 +1231,7 @@ footer .credits {
 }
 
 #back-to-top i {
-	margin-left: -7px;	
+	margin-left: -7px;
 }
 
 
@@ -1256,7 +1261,7 @@ footer .credits {
 	position: relative !important;
 	width: 100% !important;
 	height: 100% !important;
-	top: 0 !important;	
+	top: 0 !important;
 }
 
 #jprePercentage {
@@ -1269,9 +1274,9 @@ footer .credits {
 	top: 50%;
 	margin: -25px 0 0 -25px;
 	z-index: 800;
-	
+
 	font-size: 24px;
-	color: #FFFFFF;	
+	color: #FFFFFF;
 
 	-webkit-animation: circle 1s infinite forwards;
 	   -moz-animation: circle 1s infinite forwards;
@@ -1294,7 +1299,7 @@ footer .credits {
 	border-radius: 999px;
 	opacity: 0;
 	filter: alpha(opacity=0);
-			
+
 	-webkit-animation: circle 1s infinite forwards;
 	   -moz-animation: circle 1s infinite forwards;
 		-ms-animation: circle 1s infinite forwards;
@@ -1434,7 +1439,7 @@ footer .credits {
 
 .maps {
 	max-height: 400px;
-	height: 200px; 
+	height: 200px;
 }
 
 .h5-title {
