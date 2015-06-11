@@ -3,23 +3,23 @@
 ================================*/
 /* Min width to not compress menu */
 @media (min-width: 1015px) {
-	header .sticky-nav {
+	/*header .sticky-nav {
 		position: fixed;
 		top: 0;
 		left: 0;
-	}
+	}*/
 }
 
 @media (max-width: 1015px) {
 	#menu {
 		display: none;
 	}
-
+/*
 	header .sticky-nav {
 		position: fixed;
 		top: 0;
 		left: 0;
-	}
+	}*/
 
 	#mobile-nav {
     	display: block;
@@ -47,12 +47,12 @@
 	#menu {
 		display: none;
 	}
-
+/*
 	header .sticky-nav {
 		position: fixed;
 		top: 0;
 		left: 0;
-	}
+	}*/
 
 	#mobile-nav {
     	display: block;
@@ -132,12 +132,12 @@
 	#menu {
 		display: none;
 	}
-
+/*
 	header .sticky-nav {
 		position: fixed;
 		top: 0;
 		left: 0;
-	}
+	}*/
 
 	#mobile-nav {
     	display: block;
@@ -163,9 +163,9 @@
 		margin-right: -20px;
 	}
 
-	header .sticky-nav {
+/*	header .sticky-nav {
 		position: relative;
-	}
+	}*/
 
 	header .sticky-nav,
 	#navigation-mobile,
@@ -346,9 +346,9 @@
 		display: none;
 	}
 
-	header .sticky-nav {
+/*	header .sticky-nav {
 		position: relative;
-	}
+	}*/
 
 	header .sticky-nav,
 	#navigation-mobile,
@@ -363,7 +363,7 @@
 	}
 
 	header .sticky-nav #logo {
-		margin-left: 0;
+		margin-left: 20px;
 	}
 
 	header .sticky-nav.stuck #logo {
@@ -556,8 +556,13 @@
 		display: none;
 	}
 
-	div#welcome {
+	.welcome {
 		display: block;
+	}
+
+	/* Hack for item on menu */
+	nav#menu #menu-nav li.welcome {
+		display: inline-block;
 	}
 }
 
