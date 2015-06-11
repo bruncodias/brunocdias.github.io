@@ -35,8 +35,10 @@
 	End of @media > 980px (notebooks/desktops)
 ================================*/
 
+/*================================
+	@media = 768-980px (tablet/notebooks)
+================================*/
 @media (min-width: 768px) and (max-width: 980px) {
-
 	#menu {
 		display: none;
 	}
@@ -96,16 +98,35 @@
 /*================================
 	Slider
 ================================*/
-
 	#home-slider .slider-text {
-		margin: -230px 0px 0px -455px;
+		margin: -300px 0px 0px -375px;
 	}
-
 /*================================
 	End of Slider
 ================================*/
+
+/*================================
+	Supersized Image
+================================*/
+	#supersized img {
+		margin-right: 200px;
+	}
+
+	#home-slider .slide-text {
+		padding-right: 500px;
+	}
+/*================================
+	End of Supersized Image
+================================*/
 }
 
+/*================================
+	End of @media = 768-980px (tablet/notebooks)
+================================*/
+
+/*================================
+	@media = 481-767px (tablet)
+================================*/
 @media (min-width: 481px) and (max-width: 767px) {
 	#back-to-top {
 		display: none !important;
@@ -293,7 +314,6 @@
 /*================================
 	@media = 480px (phone+tablet)
 ================================*/
-
 @media (max-width: 480px) {
 	#back-to-top {
 		display: none !important;
