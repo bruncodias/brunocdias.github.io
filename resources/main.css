@@ -316,18 +316,22 @@ h3.spec {
 
 #home-slider .slider-text {
 	position: absolute;
-	left: 50%;
-	top: 50%;
-	margin: -15% 0% 0% -47%;
+	margin: 3% 0% 0% 3%;
 	width: 90%;
-	max-height: 90vh;
+	/*max-height: 90vh;*/
 	text-align: center;
 	z-index: 2;
 }
 
 #home-slider #slidecaption {
 	width: 100%;
-	line-height: 70px;
+	/*
+	 * line-height = 110% (default value)
+	 * line-height (in px) = 16 + 1.6 = 17.6px
+	 * 17.6px = context value
+	 * target / context = result
+	 */
+	line-height: 3.98em; /* 70px/17.6px = 3.98em */
 	margin: 0;
 	text-align: left;
 	text-shadow: none;
@@ -336,7 +340,6 @@ h3.spec {
 /* Japanese at Lehman, CUNY */
 #home-slider .slide-content {
 	font-size: 3.75em; /* 60px/16px = 3.75em */
-	width: 78%;
 	color: #7f0024;
 	letter-spacing: -1px;
 	text-transform: uppercase;
@@ -348,7 +351,7 @@ h3.spec {
 	color: #7f0024;
 	letter-spacing: 0px;
 	text-align: justify;
-	width: 78%;
+	width: 72%;
 }
 
 /* Welcome message in japanese */
@@ -1450,4 +1453,9 @@ footer .credits {
 
 nav#menu #menu-nav li#home-slider-option {
 	display: none;
+}
+
+div.spacer {
+	width: auto;
+	height: 60px;
 }
