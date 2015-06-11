@@ -1,23 +1,43 @@
 /*================================
-	@media > 980px (notebooks/desktops)
+	@media > 1015px (notebooks/desktops)
 ================================*/
-@media (min-width: 981px) and (max-width: 1280px) {
-
-	#home-slider .slider-text {
-		/*margin: -230px 0px 0px -625px;*/
-	}
-}
-
-@media (min-width: 981px) {
-	/* Min width to not compress menu */
+/* Min width to not compress menu */
+@media (min-width: 1015px) {
 	header .sticky-nav {
 		position: fixed;
 		top: 0;
 		left: 0;
 	}
 }
+
+@media (max-width: 1015px) {
+	#menu {
+		display: none;
+	}
+
+	header .sticky-nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+
+	#mobile-nav {
+    	display: block;
+		float: right;
+	}
+
+	#menu-nav-mobile {
+		margin: 0;
+	}
+
+	header .sticky-nav #mobile-nav,
+	header .sticky-nav.stuck #mobile-nav {
+		margin-right: 20px;
+	}
+
+}
 /*================================
-	End of @media > 980px (notebooks/desktops)
+	End of @media > 1015px (notebooks/desktops)
 ================================*/
 
 /*================================
@@ -109,6 +129,31 @@
 	@media = 481-767px (tablet)
 ================================*/
 @media (min-width: 481px) and (max-width: 767px) {
+	#menu {
+		display: none;
+	}
+
+	header .sticky-nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+	}
+
+	#mobile-nav {
+    	display: block;
+		float: right;
+	}
+
+	#menu-nav-mobile {
+		margin: 0;
+	}
+
+	header .sticky-nav #mobile-nav,
+	header .sticky-nav.stuck #mobile-nav {
+		margin-right: 20px;
+	}
+
+
 	#back-to-top {
 		display: none !important;
 	}
@@ -458,32 +503,6 @@
 	.kokeshi {
 		clear: both;
 	}
-
-/*================================
-	Slider
-================================*/
-
-	#home-slider .slide-content {
-		font-size: 30px;
-		letter-spacing: 0px;
-	}
-/*
-	#home-slider #slidecaption {
-		line-height: 50px;
-	}*/
-/*
-	#home-slider .slider-text {
-		margin: 40px 0px 0px -165px;
-	}*/
-
-	#supersized img {
-		/*width: 50%;
-		height: 100%;*/
-	}
-
-/*================================
-	End of Slider
-================================*/
 }
 
 /*================================
@@ -511,38 +530,40 @@
 	.kokeshi {
 		clear: both;
 	}
-
-/*================================
-	Slider
-================================*/
-
-	#home-slider .slide-content {
-		font-size: 30px;
-		letter-spacing: -1px;
-	}
-
-	#home-slider #slidecaption {
-		line-height: 40px;
-	}
-/*
-	#home-slider .slider-text {
-		margin: 45px 0 0 -135px;
-	}*/
-
-/*================================
-	End of Slider
-================================*/
 }
 
 /*================================
 	End of @media = 320px (smartphones)
 ================================*/
 
-@media (max-height: 640px) {
+/*================================
+	Media Height Rules
+================================*/
+
+@media (min-height: 1024px) {
 	#home-slider .slider-text {
-		
+		margin-top: 15%;
 	}
 }
+
+/*================================
+	Min height to welcome message 
+	appear at slider-text 
+	container
+================================*/
+@media (max-height: 640px) {
+	#home-slider .slide-text {
+		display: none;
+	}
+
+	div#welcome {
+		display: block;
+	}
+}
+
+/*================================
+	End of Media Height Rules
+================================*/
 
 /* Retina Display ====================================== */
 

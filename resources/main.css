@@ -1458,6 +1458,7 @@ footer .credits {
 
 /* End of Resources Section========================= */
 
+/* Home option at menu desktop-version */
 nav#menu #menu-nav li#home-slider-option {
 	display: none;
 }
@@ -1465,4 +1466,8 @@ nav#menu #menu-nav li#home-slider-option {
 div.spacer {
 	width: auto;
 	height: 60px;
+}
+
+div#welcome {
+	display: none;
 }
