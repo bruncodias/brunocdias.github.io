@@ -1461,7 +1461,7 @@ footer .credits {
 /* End of Resources Section========================= */
 
 /* Home option at menu desktop-version */
-nav#menu #menu-nav li#home-slider-option {
+nav#menu #menu-nav li.home-slider-option {
 	display: none;
 }
 

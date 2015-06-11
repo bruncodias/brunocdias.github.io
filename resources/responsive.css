@@ -101,16 +101,6 @@
 	}
 
 /*================================
-	Slider
-================================*/
-	#home-slider .slider-text {
-		/*margin: -300px 0px 0px -375px;*/
-	}
-/*================================
-	End of Slider
-================================*/
-
-/*================================
 	Supersized Image
 ================================*/
 	#supersized img {
@@ -514,10 +504,6 @@
 ================================*/
 
 @media (max-width: 320px) {
-	#navigation-mobile li a {
-		padding: 20px 0;
-	}
-
 	.work-nav #filters li a {
 		font-size: 12px;
 	}
