@@ -538,8 +538,13 @@
 	End of @media = 320px (smartphones)
 ================================*/
 
+@media (max-height: 640px) {
+	#home-slider .slider-text {
+		
+	}
+}
 
-/* Retina Display */
+/* Retina Display ====================================== */
 
 @media only screen and (-webkit-min-device-pixel-ratio: 2),
  	only screen and (-moz-min-device-pixel-ratio: 2),

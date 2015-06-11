@@ -352,12 +352,16 @@ h3.spec {
 	letter-spacing: 0px;
 	text-align: justify;
 	width: 72%;
+	min-height: 365px;
 }
 
 /* Welcome message in japanese */
 #home-slider .slide-text-jp {
 	font-size: 1.5625em; /* 25px/16px = 1.5625em */
 	width: 100%;
+	color: #7f0024;
+	letter-spacing: 0px;
+	text-align: left;
 }
 
 #home-slider .control-nav {
