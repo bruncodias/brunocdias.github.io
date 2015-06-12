@@ -336,10 +336,6 @@
 		display: none;
 	}
 
-/*	header .sticky-nav {
-		position: relative;
-	}*/
-
 	header .sticky-nav,
 	#navigation-mobile,
 	.page,
@@ -499,12 +495,9 @@
 		display: none;
 	}
 
-	.fancybox-close {
-		top: 20px;
-	}
-
 	.fancybox-close i {
-		left: 0px;
+		left: 20px;
+		top: 45px;	
 	}
 	/* end of course option details */
 }
@@ -534,6 +527,11 @@
 	/* course option details (fancybox) */
 	.fancybox-inner {
 		display: none;
+	}
+
+	.fancybox-close i {
+		left: 20px;
+		top: 30px;	
 	}
 	/* end of course option details */
 }
