@@ -516,6 +516,17 @@
 	.kokeshi {
 		clear: both;
 	}
+
+	/* course option details */
+	.fancybox-inner {
+		display: none;
+	}
+
+	.fancybox-prev,
+	.fancybox-next {
+
+	}
+
 }
 
 /*================================

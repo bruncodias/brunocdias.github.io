@@ -350,7 +350,6 @@ h3.spec {
 	font-size: 1em;
 	color: #7f0024;
 	letter-spacing: 0px;
-	text-align: justify;
 	width: 72%;
 	min-height: 365px;
 }
@@ -1486,4 +1485,8 @@ nav#menu #menu-nav li.welcome {
 
 ::selection {
     background: #ffbad2;
+}
+
+.justified {
+	text-align: justify;
 }

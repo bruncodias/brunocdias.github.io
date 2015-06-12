@@ -22,10 +22,6 @@
 <!-- Main Style -->
 <link href="resources/main.css" rel="stylesheet">
 
-<!-- Supersized --><!--
-<link href="http://themes.alessioatzeni.com/html/brushed/_include/css/supersized.css" rel="stylesheet">
-<link href="http://themes.alessioatzeni.com/html/brushed/_include/css/supersized.shutter.css" rel="stylesheet"> -->
-
 <!-- FancyBox -->
 <link href="http://themes.alessioatzeni.com/html/brushed/_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
 
@@ -86,7 +82,7 @@
             <br />
             <br />
         </div>
-        <div class="slide-text">
+        <div class="slide-text justified">
             Welcome to the Japanese Language Program Homepage! Whether you are interested in manga and anime, studying economics, love eating sushi, or you want to be a creator of video games, you will enjoy studying Japanese at Lehman College. Learning a language that is so different from English might seem intimidating, but we make it fun and interesting. In class you will learn important cultural lessons as well as grammar and vocabulary to communicate with Japanese speakers. You will gain access and insight to Japanese culture that has become part of international culture and your everyday life. Japan might be a small country, but it's where all things "cool" and "cute" come from.
             <br />
             <br />
@@ -153,10 +149,10 @@
 
         <div class="row">
             <div class="span12">
-                <p>
+                <p class="justified">
                     Whether you are interested in manga and anime, studying economics, love eating sushi, or you want to be a creator of video games, you will enjoy studying Japanese at Lehman College. Learning a language that is so different from English might seem intimidating, but we make it fun and interesting. In class you will learn important cultural lessons as well as grammar and vocabulary to communicate with Japanese speakers. You will gain access and insight to Japanese culture that has become part of international culture and your everyday life. Japan might be a small country, but it's where all things "cool" and "cute" come from.
                 </p>
-                <p>
+                <p class="slide-text-mobile">
                     The Department of Languages and Literatures at Lehman College offers all levels of Japanese language courses. Students who choose to fulfill the foreign language requirement with Japanese are required to take JAL 111 and JAL 112. If you have prior knowledge of Japanese, please contact the instructor for a placement test. You can minor in Japanese by completing three years of Japanese, with at least six credits in 300-level language courses.
                 </p>
             </div>
@@ -195,10 +191,10 @@
 
                     	<li class="type-work">Course Options</li>
                         <li>
-                            <a id="allCourses" href="http://themes.alessioatzeni.com/html/brushed/#filter" data-option-value="*" class="selected">All Courses</a>
+                            <a id="allCourses" href="http://themes.alessioatzeni.com/html/brushed/#filter" data-option-value=".minor,.conducted" class="selected">All Courses</a>
                         </li>
                         <li>
-                            <a id="minor" href="http://themes.alessioatzeni.com/html/brushed/#filter" data-option-value=".minor">Minor</a>
+                            <a id="minor" href="http://themes.alessioatzeni.com/html/brushed/#filter" data-option-value=".minor,.requirements">Minor</a>
                         </li>
                         <li>
                             <a class="conductedInEnglish" href="http://themes.alessioatzeni.com/html/brushed/#filter" data-option-value=".conducted">Conducted in English</a>
@@ -212,9 +208,13 @@
             	<div class="row">
                 	<section id="projects" class="isotope" style="position: relative; overflow: hidden; height: 657px;">
                     	<ul id="thumbs">
-
+                            <!-- Minor Requirements and Filter Name -->
+                            <li class="requirements item-thumbs isotope-item span9">
+                                <span class="justified">You can minor in Japanese by completing three years of Japanese, with at least six credits in 300-level language courses.</span>
+                            </li>
+                            <!-- End Minor Requirements -->
 							<!-- Item Course and Filter Name -->
-                        	<li class="minor item-thumbs span3 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px);">
+                        	<li class="minor item-thumbs span3 isotope-item">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                             	<!-- Title attribute = Title for image in "fancybox" -->
                         		<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Elementary Japanese I" href="http://themes.alessioatzeni.com/html/brushed/_include/img/work/full/image-01-full.jpg">
@@ -242,7 +242,7 @@
                         	<!-- End Item Course -->
 
 							<!-- Item Course and Filter Name -->
-                        	<li class="minor item-thumbs span3 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(300px, 0px, 0px);">
+                        	<li class="minor item-thumbs span3 isotope-item">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                             	<!-- Title attribute = Course name for image in "fancybox" -->
                             	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Elementary Japanese II" href="http://themes.alessioatzeni.com/html/brushed/_include/img/work/full/image-02-full.jpg">
@@ -270,7 +270,7 @@
                         	<!-- End Item Course -->
 
 							<!-- Item Course and Filter Name -->
-                        	<li class="minor item-thumbs span3 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(600px, 0px, 0px);">
+                        	<li class="minor item-thumbs span3 isotope-item">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                             	<!-- Title attribute = Course name for image in "fancybox" -->
                             	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Intermediate Japanese I" href="http://themes.alessioatzeni.com/html/brushed/_include/img/work/full/image-03-full.jpg">
@@ -298,7 +298,7 @@
                         	<!-- End Item Project -->
 
 							<!-- Item Project and Filter Name -->
-                        	<li class="minor item-thumbs span3 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 219px, 0px);">
+                        	<li class="minor item-thumbs span3 isotope-item">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                             	<!-- Title attribute = Course name for image in "fancybox" -->
                             	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Intermediate Japanese II" href="http://themes.alessioatzeni.com/html/brushed/_include/img/work/full/image-04-full.jpg">
@@ -326,7 +326,7 @@
                         	<!-- End Item Project -->
 
 							<!-- Item Project and Filter Name -->
-                        	<li class="minor item-thumbs span3 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(300px, 219px, 0px);">
+                        	<li class="minor item-thumbs span3 isotope-item">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                             	<!-- Title attribute = Course name for image in "fancybox" -->
                             	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Individualized Intermediate Foreign Language Study" href="http://themes.alessioatzeni.com/html/brushed/_include/img/work/full/image-05-full.jpg">
@@ -354,7 +354,7 @@
                         	<!-- End Item Project -->
 
 							<!-- Item Project and Filter Name -->
-                        	<li class="minor item-thumbs span3 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(600px, 219px, 0px);">
+                        	<li class="minor item-thumbs span3 isotope-item">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                             	<!-- Title attribute = Course name for image in "fancybox" -->
                             	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Advanced Japanese I" href="http://themes.alessioatzeni.com/html/brushed/_include/img/work/full/image-06-full.jpg">
@@ -382,7 +382,7 @@
                         	<!-- End Item Project -->
 
 							<!-- Item Project and Filter Name -->
-                        	<li class="minor item-thumbs span3 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 438px, 0px);">
+                        	<li class="minor item-thumbs span3 isotope-item">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                             	<!-- Title attribute = Course name for image in "fancybox" -->
                             	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Advanced Japanese II" href="http://themes.alessioatzeni.com/html/brushed/_include/img/work/full/image-06-full.jpg">
@@ -410,7 +410,7 @@
                         	<!-- End Item Project -->
 
 							<!-- Item Project and Filter Name -->
-                        	<li class="minor item-thumbs span3 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(300px, 438px, 0px);">
+                        	<li class="minor item-thumbs span3 isotope-item">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                             	<!-- Title attribute = Course name for image in "fancybox" -->
                             	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Comparative Grammar" href="http://themes.alessioatzeni.com/html/brushed/_include/img/work/full/image-06-full.jpg">
@@ -438,7 +438,7 @@
                         	<!-- End Item Project -->
 
 							<!-- Item Project and Filter Name -->
-                        	<li class="minor item-thumbs span3 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(600px, 438px, 0px);">
+                        	<li class="minor item-thumbs span3 isotope-item">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                             	<!-- Title attribute = Course name for image in "fancybox" -->
                             	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Topics in Japanese Literature" href="http://themes.alessioatzeni.com/html/brushed/_include/img/work/full/image-06-full.jpg">
@@ -466,7 +466,7 @@
                         	<!-- End Item Project -->
 
 							<!-- Item Project and Filter Name -->
-                        	<li class="minor item-thumbs span3 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(600px, 438px, 0px);">
+                        	<li class="minor item-thumbs span3 isotope-item">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                             	<!-- Title attribute = Course name for image in "fancybox" -->
                             	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Special Topics in Japanese Literature" href="http://themes.alessioatzeni.com/html/brushed/_include/img/work/full/image-06-full.jpg">
@@ -494,7 +494,7 @@
                         	<!-- End Item Project -->
 
 							<!-- Item Project and Filter Name -->
-                        	<li class="minor item-thumbs span3 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(600px, 438px, 0px);">
+                        	<li class="minor item-thumbs span3 isotope-item">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                             	<!-- Title attribute = Course name for image in "fancybox" -->
                             	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Tutorial" href="http://themes.alessioatzeni.com/html/brushed/_include/img/work/full/image-06-full.jpg">
@@ -522,7 +522,7 @@
                         	<!-- End Item Project -->
 
 							<!-- Item Project and Filter Name -->
-                        	<li class="minor item-thumbs span3 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(600px, 438px, 0px);">
+                        	<li class="minor item-thumbs span3 isotope-item">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                             	<!-- Title attribute = Course name for image in "fancybox" -->
                             	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Individualized Advanced Foreign Language Study" href="http://themes.alessioatzeni.com/html/brushed/_include/img/work/full/image-06-full.jpg">
@@ -550,7 +550,7 @@
                         	<!-- End Item Project -->
 
 							<!-- Item Project and Filter Name -->
-                        	<li class="conducted item-thumbs span3 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(600px, 438px, 0px);">
+                        	<li class="conducted item-thumbs span3 isotope-item">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                             	<!-- Title attribute = Course name for image in "fancybox" -->
                             	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Japanese Literature and Culture" href="http://themes.alessioatzeni.com/html/brushed/_include/img/work/full/image-06-full.jpg">
@@ -578,7 +578,7 @@
                         	<!-- End Item Project -->
 
 							<!-- Item Project and Filter Name -->
-                        	<li class="conducted item-thumbs span3 isotope-item" style="position: absolute; left: 0px; top: 0px; transform: translate3d(600px, 438px, 0px);">
+                        	<li class="conducted item-thumbs span3 isotope-item">
                             	<!-- Fancybox - Gallery Enabled - Title - Full Image -->
                             	<!-- Title attribute = Course name for image in "fancybox" -->
                             	<a class="hover-wrap fancybox" data-fancybox-group="gallery" title="Classics of Japanese Literature" href="http://themes.alessioatzeni.com/html/brushed/_include/img/work/full/image-06-full.jpg">
