@@ -493,6 +493,20 @@
 	.kokeshi {
 		clear: both;
 	}
+
+	/* course option details (fancybox) */
+	.fancybox-inner {
+		display: none;
+	}
+
+	.fancybox-close {
+		top: 20px;
+	}
+
+	.fancybox-close i {
+		left: 0px;
+	}
+	/* end of course option details */
 }
 
 /*================================
@@ -517,15 +531,11 @@
 		clear: both;
 	}
 
-	/* course option details */
+	/* course option details (fancybox) */
 	.fancybox-inner {
 		display: none;
 	}
-
-	.fancybox-close {
-		top: 20px;
-	}
-
+	/* end of course option details */
 }
 
 /*================================
