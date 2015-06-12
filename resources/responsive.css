@@ -522,9 +522,8 @@
 		display: none;
 	}
 
-	.fancybox-prev,
-	.fancybox-next {
-
+	.fancybox-close {
+		top: 20px;
 	}
 
 }
