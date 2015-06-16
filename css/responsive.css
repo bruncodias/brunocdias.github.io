@@ -1,25 +1,11 @@
 /*================================
 	@media > 1015px (notebooks/desktops)
 ================================*/
-/* Min width to not compress menu */
-@media (min-width: 1015px) {
-	/*header .sticky-nav {
-		position: fixed;
-		top: 0;
-		left: 0;
-	}*/
-}
 
 @media (max-width: 1015px) {
 	#menu {
 		display: none;
 	}
-/*
-	header .sticky-nav {
-		position: fixed;
-		top: 0;
-		left: 0;
-	}*/
 
 	#mobile-nav {
     	display: block;
@@ -93,20 +79,6 @@
 	.kokeshi {
 		clear: both;
 	}
-
-/*================================
-	Supersized Image/Slider
-================================*/
-	#supersized li.activeslide img{ 
-		left: -150%; 
-	}
-
-	#home-slider .overlay {
-		display: block;
-	}
-/*================================
-	End of Supersized Image/Slider
-================================*/
 }
 
 /*================================
@@ -289,22 +261,6 @@
 	.kokeshi {
 		clear: both;
 	}
-
-/*================================
-	Supersized Image/Slider
-================================*/
-
-	#supersized li.activeslide img{ 
-		left: -150%; 
-	}
-
-	#home-slider .overlay {
-		display: block;
-	}
-
-/*================================
-	End of Supersized Image/Slider
-================================*/
 }
 
 /*================================
@@ -515,17 +471,6 @@
 	.kokeshi {
 		clear: both;
 	}
-
-/*================================
-	Supersized Image/Slider
-================================*/
-	#supersized li.activeslide img { 
-		left: -180%; 
-	}
-
-/*================================
-	End of Supersized Image/Slider
-================================*/
 
 	/* course option details (fancybox) */
 	.fancybox-inner {
