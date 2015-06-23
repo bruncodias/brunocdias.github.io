@@ -84,7 +84,7 @@
 		Supersized Image/Slider
 	================================*/
 		#supersized li.activeslide img{
-			left: -150%;
+			left: -150% !important;
 		}
 	/*================================
 		End of Supersized Image/Slider
@@ -140,10 +140,6 @@
 	}
 
 	header .sticky-nav #logo {
-		margin-left: 0;
-	}
-
-	header .sticky-nav.stuck #logo {
 		margin-left: 20px;
 	}
 
@@ -320,10 +316,6 @@
 		margin-left: 20px;
 	}
 
-	header .sticky-nav.stuck #logo {
-		margin-left: 20px;
-	}
-
 	header .sticky-nav #menu {
 		margin-right: 0;
 	}
@@ -485,6 +477,20 @@
 ================================*/
 
 /*================================
+	@media = 360px (smartphones)
+	Exclusively for home image.
+================================*/
+@media (max-width: 360px) {
+	#supersized li.activeslide img {
+		left: -240%;
+	}
+}
+
+/*================================
+	End of @media = 360px (smartphones)
+================================*/
+
+/*================================
 	@media = 320px (smartphones)
 ================================*/
 
@@ -501,6 +507,17 @@
 	.kokeshi {
 		clear: both;
 	}
+	
+	/*================================
+	Supersized Image/Slider
+	================================*/
+	#supersized li.activeslide img {
+		left: -180%;
+	}
+
+	/*================================
+		End of Supersized Image/Slider
+	================================*/
 
 	/* course option details (fancybox) */
 	.fancybox-inner {
@@ -528,6 +545,19 @@
 	}
 }
 
+@media (height: 768px) {
+	/*================================
+	Supersized Image/Slider
+	================================*/
+	#supersized li.activeslide img {
+		left: -50%;
+	}
+
+	/*================================
+		End of Supersized Image/Slider
+	================================*/
+}
+
 /*================================
 	Min height to welcome message
 	appear at slider-text
@@ -548,12 +578,25 @@
 	}
 }
 
+@media (max-height: 360px) {
+	/*================================
+	Supersized Image/Slider
+	================================*/
+	#supersized li.activeslide img {
+		left: -15%;
+	}
+
+	/*================================
+		End of Supersized Image/Slider
+	================================*/
+}
+
 @media (max-height: 320px) {
 	/*================================
 	Supersized Image/Slider
 	================================*/
 	#supersized li.activeslide img {
-		left: 0% !important;
+		left: -35%;
 	}
 
 	/*================================
