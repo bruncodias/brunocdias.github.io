@@ -79,6 +79,16 @@
 	.kokeshi {
 		clear: both;
 	}
+
+	/*================================
+		Supersized Image/Slider
+	================================*/
+		#supersized li.activeslide img{
+			left: -150%;
+		}
+	/*================================
+		End of Supersized Image/Slider
+	================================*/
 }
 
 /*================================
@@ -96,7 +106,7 @@
 	#mobile-nav {
     	display: block;
 		float: right;
-	}
+	}©
 
 	#menu-nav-mobile {
 		margin: 0;
@@ -261,6 +271,16 @@
 	.kokeshi {
 		clear: both;
 	}
+
+	/*================================
+		Supersized Image/Slider
+	================================*/
+		#supersized li.activeslide img{
+			left: -150%;
+		}
+	/*================================
+		End of Supersized Image/Slider
+	================================*/
 }
 
 /*================================
@@ -437,6 +457,16 @@
 	.kokeshi {
 		clear: both;
 	}
+	/*================================
+	Supersized Image/Slider
+	================================*/
+	#supersized li.activeslide img {
+		left: -180%;
+	}
+
+	/*================================
+		End of Supersized Image/Slider
+	================================*/
 
 	/* course option details (fancybox) */
 	.fancybox-inner {
@@ -445,7 +475,7 @@
 
 	.fancybox-close i {
 		left: 20px;
-		top: 45px;	
+		top: 45px;
 	}
 	/* end of course option details */
 }
@@ -479,7 +509,7 @@
 
 	.fancybox-close i {
 		left: 20px;
-		top: 30px;	
+		top: 30px;
 	}
 	/* end of course option details */
 }
@@ -499,8 +529,8 @@
 }
 
 /*================================
-	Min height to welcome message 
-	appear at slider-text 
+	Min height to welcome message
+	appear at slider-text
 	container
 ================================*/
 @media (max-height: 640px) {
@@ -516,6 +546,19 @@
 	nav#menu #menu-nav li.welcome {
 		display: inline-block;
 	}
+}
+
+@media (max-height: 320px) {
+	/*================================
+	Supersized Image/Slider
+	================================*/
+	#supersized li.activeslide img {
+		left: 0% !important;
+	}
+
+	/*================================
+		End of Supersized Image/Slider
+	================================*/
 }
 
 /*================================
