@@ -1,4 +1,19 @@
 /*================================
+    @media < 1280px
+================================*/
+@media (max-width: 1280px) and (min-height: 900px) {
+	/*================================
+		Supersized Image/Slider
+	================================*/
+		#supersized li.activeslide img{
+			left: -52%;
+		}
+	/*================================
+		End of Supersized Image/Slider
+	================================*/
+}
+
+/*================================
 	@media > 1015px (notebooks/desktops)
 ================================*/
 
@@ -509,7 +524,7 @@
 	}
 	
 	/*================================
-	Supersized Image/Slider
+	   Supersized Image/Slider
 	================================*/
 	#supersized li.activeslide img {
 		left: -180%;
