@@ -491,7 +491,7 @@
 	appear at slider-text
 	container
 ================================*/
-@media (max-height: 640px) {
+@media (max-height: 736px) { /* Apple iPhone 6 Plus */
 	#home-slider .slide-text {
 		display: none;
 	}
@@ -514,15 +514,10 @@
 @media (max-height: 480px) {
     #navigation-mobile li {
         width: 49%; /* 49, not 50, to allow border */
-        display: inline-table;
+        display: inline-block;
         position: relative;
         float: left;
         border-right: 1px solid #ffcae1;
-    }
-    
-    #navigation-mobile li a {
-        font-size: 16px;
-        padding: 20px 0;
     }
 }
 
