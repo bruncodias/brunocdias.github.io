@@ -545,7 +545,11 @@
 		background-size: 16px 16px;
 	}
         
-    #social ul li a {
-        border: 10px solid black;
+    #social ul li {
+    -webkit-transform: none;
+	   -moz-transform: none;
+		-ms-transform: none;
+		 -o-transform: none;
+			transform: none;
     }
 }
