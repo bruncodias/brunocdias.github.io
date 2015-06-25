@@ -1,6 +1,6 @@
-/* 
+/*
  * This document hacks the home slide image and make the gueisha visible. The following screens were considered (sorted by width-size):
-    
+
     * 320x480   (Apple iPhone 4)
     * 320x533   (Nokia Lumia 520)
     * 320x568   (Apple iPhone 5)
@@ -16,6 +16,63 @@
     * 1440x900  (Laptop with HiDPI screen)
     * 2560x1600 (Amazon Kindle Fire HDX)
 
- * All tests were made in Google Chrome browser v43.  
+ * All tests were made in Google Chrome browser v43.
  * Reminder: the Brushed template is not mobile-first, which means that some hacks are necessary - like this one - to make it adaptable for every device.
  */
+
+@media (max-width: 1280px) and (min-height: 900px) {
+	#supersized li.activeslide img{
+		left: -52%;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 980px) {
+	#supersized li.activeslide img {
+		left: -150% !important;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    #supersized li.activeslide img{
+        left: -150%;
+    }
+}
+
+@media (max-width: 480px) {
+    #supersized li.activeslide img {
+        left: -180%;
+    }
+}
+
+@media (max-width: 360px) {
+	#supersized li.activeslide img {
+		left: -240%;
+	}
+}
+
+
+@media (max-width: 320px) {
+	#supersized li.activeslide img {
+		left: -180%;
+	}
+}
+
+/* Height rules */
+
+@media (height: 768px) {
+	#supersized li.activeslide img {
+		left: -50%;
+	}
+}
+
+@media (max-height: 360px) {
+	#supersized li.activeslide img {
+		left: -15%;
+	}
+}
+
+@media (max-height: 320px) {
+	#supersized li.activeslide img {
+		left: -35%;
+	}
+}

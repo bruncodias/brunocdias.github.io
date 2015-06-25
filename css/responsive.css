@@ -1,19 +1,4 @@
 /*================================
-    @media < 1280px
-================================*/
-@media (max-width: 1280px) and (min-height: 900px) {
-	/*================================
-		Supersized Image/Slider
-	================================*/
-		#supersized li.activeslide img{
-			left: -52%;
-		}
-	/*================================
-		End of Supersized Image/Slider
-	================================*/
-}
-
-/*================================
 	@media > 1015px (notebooks/desktops)
 ================================*/
 
@@ -94,16 +79,6 @@
 	.kokeshi {
 		clear: both;
 	}
-
-	/*================================
-		Supersized Image/Slider
-	================================*/
-		#supersized li.activeslide img{
-			left: -150% !important;
-		}
-	/*================================
-		End of Supersized Image/Slider
-	================================*/
 }
 
 /*================================
@@ -282,16 +257,6 @@
 	.kokeshi {
 		clear: both;
 	}
-
-	/*================================
-		Supersized Image/Slider
-	================================*/
-		#supersized li.activeslide img{
-			left: -150%;
-		}
-	/*================================
-		End of Supersized Image/Slider
-	================================*/
 }
 
 /*================================
@@ -464,16 +429,6 @@
 	.kokeshi {
 		clear: both;
 	}
-	/*================================
-	Supersized Image/Slider
-	================================*/
-	#supersized li.activeslide img {
-		left: -180%;
-	}
-
-	/*================================
-		End of Supersized Image/Slider
-	================================*/
 
 	/* course option details (fancybox) */
 	.fancybox-inner {
@@ -489,20 +444,6 @@
 
 /*================================
 	End of @media = 480px (phone+tablet)
-================================*/
-
-/*================================
-	@media = 360px (smartphones)
-	Exclusively for home image.
-================================*/
-@media (max-width: 360px) {
-	#supersized li.activeslide img {
-		left: -240%;
-	}
-}
-
-/*================================
-	End of @media = 360px (smartphones)
 ================================*/
 
 /*================================
@@ -522,17 +463,6 @@
 	.kokeshi {
 		clear: both;
 	}
-	
-	/*================================
-	   Supersized Image/Slider
-	================================*/
-	#supersized li.activeslide img {
-		left: -180%;
-	}
-
-	/*================================
-		End of Supersized Image/Slider
-	================================*/
 
 	/* course option details (fancybox) */
 	.fancybox-inner {
@@ -560,19 +490,6 @@
 	}
 }
 
-@media (height: 768px) {
-	/*================================
-	Supersized Image/Slider
-	================================*/
-	#supersized li.activeslide img {
-		left: -50%;
-	}
-
-	/*================================
-		End of Supersized Image/Slider
-	================================*/
-}
-
 /*================================
 	Min height to welcome message
 	appear at slider-text
@@ -591,32 +508,6 @@
 	nav#menu #menu-nav li.welcome {
 		display: inline-block;
 	}
-}
-
-@media (max-height: 360px) {
-	/*================================
-	Supersized Image/Slider
-	================================*/
-	#supersized li.activeslide img {
-		left: -15%;
-	}
-
-	/*================================
-		End of Supersized Image/Slider
-	================================*/
-}
-
-@media (max-height: 320px) {
-	/*================================
-	Supersized Image/Slider
-	================================*/
-	#supersized li.activeslide img {
-		left: -35%;
-	}
-
-	/*================================
-		End of Supersized Image/Slider
-	================================*/
 }
 
 /*================================
