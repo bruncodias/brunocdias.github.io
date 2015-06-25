@@ -486,7 +486,7 @@
 }
 
 /*================================
-    @media (max-height: 640px)
+    @media (max-height: 736px)
 	Min height to welcome message
 	appear at slider-text
 	container
@@ -547,4 +547,8 @@
 		/*background-image: url(../img/filter-icon_@2x.png);*/
 		background-size: 16px 16px;
 	}
+        
+    #social ul li a {
+        -webkit-transition: none;
+    }
 }
