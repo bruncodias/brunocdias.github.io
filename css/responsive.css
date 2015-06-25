@@ -546,6 +546,6 @@
 	}
         
     #social ul li a {
-        -webkit-transition: none;
+        border: 1px solid black;
     }
 }
