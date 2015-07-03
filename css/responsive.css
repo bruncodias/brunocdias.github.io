@@ -464,7 +464,8 @@
 	}
     
     #social-area #social ul li a {
-        background-image: url(../img/facebook-logo-static.PNG) no-repeat;
+        background-image: url(../img/facebook-logo-static.PNG);
+        background-repeat: no-repeat;
     }
 
 	.kokeshi {
