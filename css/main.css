@@ -518,13 +518,13 @@ header .sticky-nav {
 	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 }
-
+/*
 header .sticky-nav.stuck {
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 1001;
-}
+}*/
 
 header #logo {
 	color: #FFFFFF;

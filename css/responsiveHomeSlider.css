@@ -1,0 +1,138 @@
+/*
+ * This document hacks the home slide image and make the gueisha visible. The following screens were considered (sorted by width-size):
+
+    * 320x480   (Apple iPhone 4)
+    * 320x533   (Nokia Lumia 520)
+    * 320x568   (Apple iPhone 5)
+    * 360x640   (Samsung Galax S4, Samsung Galaxy SIII, Samsung Galaxy Note II, Samsung Galaxy Note 3, Nokia N9, Google Nexus 5, Blackberry Z30)
+    * 375x667   (Apple iPhone 6)
+    * 384x640   (Google Nexus 4, LG Optimus L70)
+    * 414x736   (Apple iPhone 6 Plus)
+    * 960x600   (Google Nexus 7)
+    * 1024x600  (Blackberry PlayBook)
+    * 1204x768  (Apple iPad Mini, Apple iPad)
+    * 1280x800  (Laptop with MDPI screen, Google Nexus 10)
+    * 1280x950  (Laptop with touch)
+    * 1440x900  (Laptop with HiDPI screen)
+    * 2560x1600 (Amazon Kindle Fire HDX)
+
+ * All tests were made in Google Chrome browser v43.
+ * Reminder: the Brushed template is not mobile-first, which means that some hacks are necessary - like this one - to make it adaptable for every device.
+
+ * Update 6/29/2015: gueisha image is not required to be visible for small and x-small screens by the client.
+ */
+
+/* Laptop with touch - landscape */
+@media (max-width: 1280px) and (max-height: 950px) {
+	#supersized li.activeslide img {
+		left: -50%;
+	}
+}
+
+/* Laptop with MDPI screen - portrait */
+@media (max-width: 1280px) and (max-height: 800px) {
+    #supersized li.activeslide img {
+        left: -30%;
+    }
+}
+
+/* Apple iPad - landscape */
+@media (max-width: 1024px) and (max-height: 768px) {
+	#supersized li.activeslide img {
+		left: -50%;
+	}
+}
+
+/* Blackberry Playbook - landscape */
+@media (max-width: 1024px) and (max-height: 600px) {
+    #supersized li.activeslide img {
+        left: -20%;
+    }
+}
+
+/* */
+@media (max-width: 980px) and (min-width: 768px) {
+	#supersized li.activeslide img {
+		left: -150%;
+	}
+}
+
+/* Google Nexus 7 - landscape */
+@media (max-width: 960px) and (max-height: 600px) {
+    #supersized li.activeslide img {
+        left: -25%;
+    }
+}
+
+/* Laptop with touch - portrait */
+@media (max-width: 950px) and (max-height: 1280px) {
+	#supersized li.activeslide img {
+		left: -155%;
+	}
+}
+
+/* Apple iPhone 6 Plus - landscape */
+@media (max-width: 736px) and (max-height: 414px) {
+    #supersized li.activeslide img {
+        left: -15%;
+    }   
+}
+
+/* Apple iPhone 6 - landscape */
+@media (max-width: 667px) and (max-height: 375px) {
+    #supersized li.activeslide img {
+        left: -15%;
+    }
+}
+
+/* Smartphones - landscape */
+@media (max-width: 640px) and (max-height: 360px) {
+    #supersized li.activeslide img {
+        left: -15%;
+    }
+    
+	#home-slider .slide-text {
+		display: none;
+	}
+
+	.welcome {
+		display: block;
+	}
+
+	/* Hack for item on menu */
+	nav#menu #menu-nav li.welcome {
+		display: inline-block;
+	}
+}
+
+/* Google Nexus 7 - portrait */
+@media (max-width: 600px) and (max-height: 960px) {
+    #supersized li.activeslide img {
+        left: -200%;
+    }
+}
+
+/* Apple iPhone 5 - landscape */
+@media (max-width: 568px) and (max-height: 320px) {
+    #supersized li.activeslide img {
+        left: -10%;
+    }
+}
+
+/* Nokia Lumia 520 - Landscape */
+@media (max-width: 533px) and (max-height: 320px) {
+    #supersized li.activeslide img {
+        left: -20%;
+    }    
+}
+
+/* */
+@media (max-width: 480px) {
+    #supersized li.activeslide img {
+        left: 0%;
+    }
+    
+    #home-slider .slide-content {
+        margin: 30px 0;
+    }
+}

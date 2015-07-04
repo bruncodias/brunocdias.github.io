@@ -1,8 +1,8 @@
 /*================================
-	@media > 1015px (notebooks/desktops)
+	@media > 1024px (notebooks/desktops)
 ================================*/
 
-@media (max-width: 1015px) {
+@media (max-width: 1024px) {
 	#menu {
 		display: none;
 	}
@@ -23,7 +23,7 @@
 
 }
 /*================================
-	End of @media > 1015px (notebooks/desktops)
+	End of @media > 1024px (notebooks/desktops)
 ================================*/
 
 /*================================
@@ -130,10 +130,6 @@
 	}
 
 	header .sticky-nav #logo {
-		margin-left: 0;
-	}
-
-	header .sticky-nav.stuck #logo {
 		margin-left: 20px;
 	}
 
@@ -300,10 +296,6 @@
 		margin-left: 20px;
 	}
 
-	header .sticky-nav.stuck #logo {
-		margin-left: 20px;
-	}
-
 	header .sticky-nav #menu {
 		margin-right: 0;
 	}
@@ -325,11 +317,6 @@
 		margin-left: -20px;
 		margin-right: -20px;
 		margin-bottom: 0;
-	}
-
-	#navigation-mobile li a {
-		font-size: 14px;
-		padding: 12px 0;
 	}
 
 	header .sticky-nav.stuck #mobile-nav {
@@ -445,7 +432,7 @@
 
 	.fancybox-close i {
 		left: 20px;
-		top: 45px;	
+		top: 45px;
 	}
 	/* end of course option details */
 }
@@ -481,7 +468,7 @@
 
 	.fancybox-close i {
 		left: 20px;
-		top: 30px;	
+		top: 30px;
 	}
 	/* end of course option details */
 }
@@ -501,11 +488,12 @@
 }
 
 /*================================
-	Min height to welcome message 
-	appear at slider-text 
-	container
+    @media (max-height: 736px)
+	Min height to welcome message
+	appear at slider-text
+	container for small devices
 ================================*/
-@media (max-height: 640px) {
+@media (max-width: 414px) and (max-height: 736px) { /* Apple iPhone 6 Plus */
 	#home-slider .slide-text {
 		display: none;
 	}
@@ -521,6 +509,21 @@
 }
 
 /*================================
+	@media (max-height: 480px)
+    480px is the minimum height
+    to see all the menu
+================================*/
+@media (max-height: 480px) {
+    #navigation-mobile li {
+        width: 49%; /* 49, not 50, to allow border (avoid collapse) */
+        display: inline-block;
+        position: relative;
+        float: left;
+        border-right: 1px solid #ffcae1;
+    }
+}
+
+/*================================
 	End of Media Height Rules
 ================================*/
 
@@ -532,11 +535,6 @@
   	only screen and (min-device-pixel-ratio: 2),
   	only screen and (min-resolution: 2dppx) {
 
-	header #logo a {
-		/*background-image: url(../img/logo_@2x.png);*/
-		background-size: 96px 30px;
-	}
-
 	.menu-nav {
 		/*background-image: url(../img/menu-mobile_@2x.png);*/
 		background-size: 16px 32px;
@@ -546,7 +544,7 @@
 		/*background-image: url(../img/filter-icon_@2x.png);*/
 		background-size: 16px 16px;
 	}
-        
+
     #social ul li {
     -webkit-transform: none;
 	   -moz-transform: none;
