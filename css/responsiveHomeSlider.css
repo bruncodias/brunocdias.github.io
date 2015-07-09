@@ -22,18 +22,10 @@
  * Update 6/29/2015: gueisha image is not required to be visible for small and x-small screens by the client.
  */
 
-/* Laptop with touch - landscape */
-@media (max-width: 1280px) and (max-height: 950px) {
-	#supersized li.activeslide img {
-		left: -50%;
-	}
-}
-
-/* Laptop with MDPI screen - portrait */
-@media (max-width: 1280px) and (max-height: 800px) {
+@media (device-aspect-ratio: 16/9) and (orientation: landscape) {
     #supersized li.activeslide img {
-        left: -30%;
-    }
+		left: 0%;
+	}
 }
 
 /* Apple iPad - landscape */
