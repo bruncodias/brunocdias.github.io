@@ -1,5 +1,7 @@
 /*
- * This document hacks the home slide image and make the gueisha visible. The following screens were considered (sorted by width-size):
+ * This document hacks the home slide image and make the gueisha visible.
+ * The metrics are aspect-ratio of viewport (area taken by <html> tag).
+ * The following screens were considered (sorted by width-size):
 
     * 320x480   (Apple iPhone 4)
     * 320x533   (Nokia Lumia 520)
@@ -17,15 +19,46 @@
     * 2560x1600 (Amazon Kindle Fire HDX)
 
  * All tests were made in Google Chrome browser v43.
- * Reminder: the Brushed template is not mobile-first, which means that some hacks are necessary - like this one - to make it adaptable for every device.
+ * Reminder: the Brushed template is NOT mobile-first, which means that some hacks are necessary - like this one - to make it adaptable for every device.
 
  * Update 6/29/2015: gueisha image is not required to be visible for small and x-small screens by the client.
  */
 
-@media (min-device-aspect-ratio: 16/9) and (orientation: landscape) {
+
+@media (aspect-ratio: 16/10) and (orientation: landscape) {
     #supersized li.activeslide img {
-		left: 0%;
+		left: -20%;
 	}
+}
+
+@media (aspect-ratio: 16/9) and (orientation: landscape) {
+    #supersized li.activeslide img {
+        left: -10%;
+    }
+}
+
+@media (aspect-ratio: 4/3) and (orientation: landscape) {
+    #supersized li.activeslide img {
+        left: -45%;
+    }
+}
+
+@media (aspect-ratio: 3/2) and (orientation: landscape) {
+    #supersized li.activeslide img {
+        left: -30%;
+    }
+}
+
+@media (aspect-ratio: 5/4) and (orientation: landscape) {
+    #supersized li.activeslide img {
+        left: -50%;
+    }
+}
+
+@media (aspect-ratio: 5/3) and (orientation: landscape) {
+    #supersized li.activeslide img {
+        left: -20%;
+    }
 }
 
 /* Smartphones - landscape */
