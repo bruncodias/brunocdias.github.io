@@ -1,6 +1,14 @@
 /*
  * This document hacks the home slide image and make the gueisha visible.
- * The metrics are aspect-ratio of viewport (area taken by <html> tag).
+ * The metrics are aspect-ratio of viewport (area taken by <html> tag) in landscape, as listed below:
+
+    * 16:10
+    * 16:9
+    * 5:4
+    * 5:3
+    * 4:3
+    * 3:2
+
  * The following screens were considered (sorted by width-size):
 
     * 320x480   (Apple iPhone 4)
@@ -61,18 +69,9 @@
     }
 }
 
-/* Smartphones - landscape */
-@media (max-width: 640px) and (max-height: 360px) {
-	#home-slider .slide-text {
-		display: none;
-	}
-
-	.welcome {
-		display: block;
-	}
-
-	/* Hack for item on menu */
-	nav#menu #menu-nav li.welcome {
-		display: inline-block;
-	}
+/* Exception - Blackberry Playbook (resolution 1024:600) */
+@media (aspect-ratio: 1024/600) and (orientation: landscape) {
+    #supersized li.activeslide img {
+        left: -15%;
+    }
 }

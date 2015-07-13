@@ -450,6 +450,7 @@
 		font-size: 12px;
 	}
     
+    /* Make social logo appear on x-small devices */
     #social-area #social ul li a {
         background-image: url(../img/facebook-logo-static.PNG);
         background-repeat: no-repeat;
@@ -488,12 +489,14 @@
 }
 
 /*================================
-    @media (max-height: 736px)
+    @media 
 	Min height to welcome message
 	appear at slider-text
-	container for small devices
+	container for small devices.
+    For landscape and portrait 
+    orientation.
 ================================*/
-@media (max-width: 414px) and (max-height: 736px) { /* Apple iPhone 6 Plus */
+@media (max-height: 599px) and (max-width: 1024px) and (orientation: landscape) {
 	#home-slider .slide-text {
 		display: none;
 	}
@@ -552,4 +555,22 @@
 		 -o-transform: none;
 			transform: none;
     }
+}
+
+/* Make welcome text take the whole screen width 
+ * when it's on vertical position 
+ */
+@media (orientation: portrait) {
+    #home-slider .slide-text {
+        width: auto;
+    }
+}
+
+/* Exception for 960x600 (Google Nexus 7) and
+ * 1024x600  (Blackberry PlayBook)
+ */
+@media (max-height: 600px) and (min-width: 960px) {
+    #home-slider .slide-content {
+        font-size: 3em;
+    }   
 }

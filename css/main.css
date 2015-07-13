@@ -343,6 +343,7 @@ h3.spec {
 	font-size: 3.75em; /* 60px/16px = 3.75em */
 	color: #7f0024;
 	letter-spacing: -1px;
+    margin: 0% 3% 0% 0%;
 	text-transform: uppercase;
 }
 
