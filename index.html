@@ -896,7 +896,7 @@
 						zoom: 15,
 						center: myLatlng
 					};
-					map = new google.maps.Map(document.getElementById('map-canvas-kinokuni'),
+					map = new google.maps.Map(document.getElementById('map-canvas-kinokuniya-nj'),
 						mapOptions);
 
 					var marker = new google.maps.Marker({
@@ -907,7 +907,7 @@
 
 				google.maps.event.addDomListener(window, 'load', initialize);
 		    </script>
-		    <div id="map-canvas-kinokuni" class="maps"></div>
+		    <div id="map-canvas-kinokuniya-nj" class="maps"></div>
     	</div>
     	<!-- End of Bookstore Location -->
     	<!-- Bookstore Location -->
@@ -930,7 +930,7 @@
 						zoom: 15,
 						center: myLatlng
 					};
-					map = new google.maps.Map(document.getElementById('map-canvas-sanseido'),
+					map = new google.maps.Map(document.getElementById('map-canvas-kinokuniya-nyc'),
 						mapOptions);
 
 					var marker = new google.maps.Marker({
@@ -941,7 +941,44 @@
 
 				google.maps.event.addDomListener(window, 'load', initialize);
 		    </script>
-		    <div id="map-canvas-sanseido" class="maps"></div>
+		    <div id="map-canvas-kinokuniya-nyc" class="maps"></div>
+    	</div>
+    	<!-- End of Bookstore Location -->
+    </div>
+    <div class="row">
+        
+    	<!-- Bookstore Location -->
+    	<div class="span6">
+    		<h5 class="h5-title">Bookoff USA</h5>
+    		<p>
+    			<span class="font-icon-map-marker-2"></span> 49 West 45th St., New York, NY 10036
+    			<br/>
+    			<span class="font-icon-phone"></span> (212) 685-1410
+    			<br/>
+    			<br/>
+    			<span class="font-icon-time"></span> 10:00AM - 8:00PM
+    		</p>
+		    <script>
+				var map;
+				function initialize() {
+					var myLatlng = new google.maps.LatLng(40.75641,-73.981436);
+
+					var mapOptions = {
+						zoom: 15,
+						center: myLatlng
+					};
+					map = new google.maps.Map(document.getElementById('map-canvas-bookoff-usa'),
+						mapOptions);
+
+					var marker = new google.maps.Marker({
+						position: myLatlng,
+						map: map,
+					});
+				}
+
+				google.maps.event.addDomListener(window, 'load', initialize);
+		    </script>
+		    <div id="map-canvas-bookoff-usa" class="maps"></div>
     	</div>
     	<!-- End of Bookstore Location -->
     </div>
