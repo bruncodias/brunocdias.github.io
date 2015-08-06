@@ -1491,3 +1491,7 @@ nav#menu #menu-nav li.welcome {
 .justified {
 	text-align: justify;
 }
+
+.event-title {
+	font-weight: 600;
+}
