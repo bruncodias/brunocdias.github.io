@@ -1121,6 +1121,13 @@ h4 {
 	margin-left: 0;
 }
 
+#social-area #social ul li.social-facebook {
+	background-image: url('../img/facebook-logo-static.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-transition: none;
+}
+
 #social ul li a {
 	display: block;
 	width: 70px;
