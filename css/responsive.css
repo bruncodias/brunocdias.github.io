@@ -1,8 +1,8 @@
 /*================================
-	@media > 1015px (notebooks/desktops)
+	@media > 1024px (notebooks/desktops)
 ================================*/
 
-@media (max-width: 1015px) {
+@media (max-width: 1024px) {
 	#menu {
 		display: none;
 	}
@@ -23,7 +23,7 @@
 
 }
 /*================================
-	End of @media > 1015px (notebooks/desktops)
+	End of @media > 1024px (notebooks/desktops)
 ================================*/
 
 /*================================
@@ -130,10 +130,6 @@
 	}
 
 	header .sticky-nav #logo {
-		margin-left: 0;
-	}
-
-	header .sticky-nav.stuck #logo {
 		margin-left: 20px;
 	}
 
@@ -300,10 +296,6 @@
 		margin-left: 20px;
 	}
 
-	header .sticky-nav.stuck #logo {
-		margin-left: 20px;
-	}
-
 	header .sticky-nav #menu {
 		margin-right: 0;
 	}
@@ -325,11 +317,6 @@
 		margin-left: -20px;
 		margin-right: -20px;
 		margin-bottom: 0;
-	}
-
-	#navigation-mobile li a {
-		font-size: 14px;
-		padding: 12px 0;
 	}
 
 	header .sticky-nav.stuck #mobile-nav {
@@ -445,7 +432,7 @@
 
 	.fancybox-close i {
 		left: 20px;
-		top: 45px;	
+		top: 45px;
 	}
 	/* end of course option details */
 }
@@ -462,11 +449,14 @@
 	.work-nav #filters li a {
 		font-size: 12px;
 	}
-
-	#twitter-feed {
-		padding-top: 90px;
-		padding-bottom: 120px;
-	}
+    
+    /* Make social logo appear on x-small devices */
+    #social-area #social ul li a {
+        background-image: url(../img/facebook-logo-static.PNG);
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 50px;
+    }
 
 	.kokeshi {
 		clear: both;
@@ -479,7 +469,7 @@
 
 	.fancybox-close i {
 		left: 20px;
-		top: 30px;	
+		top: 30px;
 	}
 	/* end of course option details */
 }
@@ -499,11 +489,15 @@
 }
 
 /*================================
-	Min height to welcome message 
-	appear at slider-text 
-	container
+    @media 
+	Min height to welcome message
+	appear at slider-text
+	container for small devices.
+    For landscape and portrait 
+    orientation.
 ================================*/
-@media (max-height: 640px) {
+@media (max-height: 599px) and (orientation: landscape),
+    (max-height: 764px) and (orientation: portrait) {
 	#home-slider .slide-text {
 		display: none;
 	}
@@ -519,6 +513,21 @@
 }
 
 /*================================
+	@media (max-height: 480px)
+    480px is the minimum height
+    to see all the menu
+================================*/
+@media (max-height: 480px) {
+    #navigation-mobile li {
+        width: 49%; /* 49, not 50, to allow border (avoid collapse) */
+        display: inline-block;
+        position: relative;
+        float: left;
+        border-right: 1px solid #ffcae1;
+    }
+}
+
+/*================================
 	End of Media Height Rules
 ================================*/
 
@@ -530,11 +539,6 @@
   	only screen and (min-device-pixel-ratio: 2),
   	only screen and (min-resolution: 2dppx) {
 
-	header #logo a {
-		/*background-image: url(../img/logo_@2x.png);*/
-		background-size: 96px 30px;
-	}
-
 	.menu-nav {
 		/*background-image: url(../img/menu-mobile_@2x.png);*/
 		background-size: 16px 32px;
@@ -544,4 +548,30 @@
 		/*background-image: url(../img/filter-icon_@2x.png);*/
 		background-size: 16px 16px;
 	}
+
+    #social ul li {
+    -webkit-transform: none;
+	   -moz-transform: none;
+		-ms-transform: none;
+		 -o-transform: none;
+			transform: none;
+    }
+}
+
+/* Make welcome text take the whole screen width 
+ * when it's on vertical position 
+ */
+@media (orientation: portrait) {
+    #home-slider .slide-text {
+        width: auto;
+    }
+}
+
+/* Exception for 960x600 (Google Nexus 7) and
+ * 1024x600  (Blackberry PlayBook)
+ */
+@media (max-height: 600px) and (min-width: 960px) {
+    #home-slider .slide-content {
+        font-size: 3em;
+    }   
 }

@@ -343,6 +343,7 @@ h3.spec {
 	font-size: 3.75em; /* 60px/16px = 3.75em */
 	color: #7f0024;
 	letter-spacing: -1px;
+    margin: 0% 3% 0% 0%;
 	text-transform: uppercase;
 }
 
@@ -518,13 +519,13 @@ header .sticky-nav {
 	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.25);
 }
-
+/*
 header .sticky-nav.stuck {
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 1001;
-}
+}*/
 
 header #logo {
 	color: #FFFFFF;
@@ -1120,6 +1121,13 @@ h4 {
 	margin-left: 0;
 }
 
+#social-area #social ul li.social-facebook {
+	background-image: url('../img/facebook-logo-static.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	-webkit-transition: none;
+}
+
 #social ul li a {
 	display: block;
 	width: 70px;
@@ -1489,4 +1497,8 @@ nav#menu #menu-nav li.welcome {
 
 .justified {
 	text-align: justify;
+}
+
+.event-title {
+	font-weight: 600;
 }
