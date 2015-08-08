@@ -1121,11 +1121,14 @@ h4 {
 	margin-left: 0;
 }
 
-#social-area #social ul li.social-facebook {
+#social ul li a.social-facebook {
 	background-image: url('../img/facebook-logo-static.png');
 	background-size: cover;
 	background-repeat: no-repeat;
-	-webkit-transition: none;
+}
+
+#social ul li a.social-facebook span {
+	-khtml-opacity: 1.0;
 }
 
 #social ul li a {
@@ -1135,12 +1138,12 @@ h4 {
 
 	background: #fc6e9e;
 
-	-webkit-transition: all 400ms ease-out 0s;
+	-webkit-transition: none;
 	   -moz-transition: all 400ms ease-out 0s;
 		 -o-transition: all 400ms ease-out 0s;
 		    transition: all 400ms ease-out 0s;
 
-	-webkit-transform: rotateY(180deg);
+	-webkit-transform: none;
 	   -moz-transform: rotateY(180deg);
 		-ms-transform: rotateY(180deg);
 		 -o-transform: rotateY(180deg);
@@ -1157,12 +1160,12 @@ h4 {
 	opacity: 0.3;
 	filter: alpha(opacity=30);
 
-	-webkit-transition: all 400ms ease-out 0s;
+	-webkit-transition: none;
 	   -moz-transition: all 400ms ease-out 0s;
 		 -o-transition: all 400ms ease-out 0s;
 		    transition: all 400ms ease-out 0s;
 
-	-webkit-transform: rotateY(180deg);
+	-webkit-transform: none;
 	   -moz-transform: rotateY(180deg);
 		-ms-transform: rotateY(180deg);
 		 -o-transform: rotateY(180deg);
@@ -1173,7 +1176,7 @@ h4 {
 #social ul li.active a {
 	background-color: #570517;
 
-	-webkit-transform: rotateY(0deg);
+	-webkit-transform: none;
 	   -moz-transform: rotateY(0deg);
 		-ms-transform: rotateY(0deg);
 		 -o-transform: rotateY(0deg);
@@ -1186,7 +1189,7 @@ h4 {
 	opacity: 1;
 	filter: alpha(opacity=100);
 
-	-webkit-transform: rotateY(0deg);
+	-webkit-transform: none;
 	   -moz-transform: rotateY(0deg);
 		-ms-transform: rotateY(0deg);
 		 -o-transform: rotateY(0deg);
